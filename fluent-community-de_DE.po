@@ -1,0 +1,5729 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FluentCommunity 1.0.97\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-community\n"
+"Last-Translator: Christian Anderl\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-15 00:50+0000\n"
+"PO-Revision-Date: 2024-11-19 00:19+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7\n"
+"X-Domain: fluent-community\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;"
+
+#: app/Services/TransStrings.php:12
+msgid " (coming soon)"
+msgstr " (kommt bald)"
+
+#: app/Views/portal/main_sidebar.php:138
+msgid "# Manage"
+msgstr "# Verwalten"
+
+#: app/Views/email/Default/_invitation.php:15
+#, php-format
+msgid "%1$s (%2$s) has invited you to join in %3$s."
+msgstr "%1$s (%2$s) hat dich eingeladen, bei %3$s mitzumachen."
+
+#. %1$s is the person name and %2$s is the feed excerpt
+#: app/Models/Activity.php:92
+#, php-format
+msgid "%1$s added a comment on %2$s"
+msgstr "%1$s hat einen Kommentar zu %2$s hinzugefügt"
+
+#. %1$s is the commenter name & %2$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:317
+#, php-format
+msgid "%1$s also commented on %2$s"
+msgstr "%1$s hat auch %2$s kommentiert"
+
+#. %1$s is the commenter name, %2$s is the feed title & %3$s is the space title
+#: app/Hooks/Handlers/NotificationEventHandler.php:309
+#, php-format
+msgid "%1$s also commented on %2$s in %3$s"
+msgstr "%1$s hat auch einen Kommentar zu %2$s in %3$s abgegeben"
+
+#. %1$s is the user name, %2$s is the like count & %3$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:217
+#, php-format
+msgid "%1$s and %2$s other people commented on your post %3$s"
+msgstr "%1$s und %2$s andere Personen haben deinen Beitrag %3$s kommentiert"
+
+#. %1$s is the user name, %2$s is the people count, %3$s is the feed title  and %4$s space title
+#: app/Hooks/Handlers/NotificationEventHandler.php:208
+#, php-format
+msgid "%1$s and %2$s other people commented on your post %3$s in %4$s"
+msgstr ""
+"%1$s und %2$s andere Personen haben deinen Beitrag %3$s in %4$s kommentiert"
+
+#. %1$s is the user name, %2$s is the like count & %3$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:104
+#, php-format
+msgid "%1$s and %2$s other people loved %3$s"
+msgstr "%1$s und %2$s andere Menschen liebten %3$s"
+
+#. %1$s is the commenter name, %2$s is the comment user count & %3$s feed excerpt
+#: app/Hooks/Handlers/NotificationEventHandler.php:385
+#, php-format
+msgid "%1$s and %2$s other people replied to your comment at %3$s"
+msgstr ""
+"%1$s und %2$s andere Personen haben auf deinen Kommentar bei %3$s geantwortet"
+
+#. %1$s is the commenter name & %2$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:235
+#, php-format
+msgid "%1$s commented on your post: %2$s"
+msgstr "%1$s hat deinen Beitrag kommentiert: %2$s"
+
+#. %1$s is the commenter name, %2$s is the feed title & %3$s is the space title
+#: app/Hooks/Handlers/NotificationEventHandler.php:227
+#, php-format
+msgid "%1$s commented on your post: %2$s in %3$s"
+msgstr "%1$s hat deinen Beitrag kommentiert: %2$s in %3$s"
+
+#: Modules/Auth/Classes/InvitationService.php:208
+#, php-format
+msgid "%1$s has invited you to join the %2$s"
+msgstr "%1$s hat dich eingeladen, den %2$s beizutreten"
+
+#: Modules/Auth/Classes/InvitationService.php:217
+#, php-format
+msgid "%1$s has invited you to join the %2$s on %3$s"
+msgstr "%1$s hat dich eingeladen, dem %2$s auf %3$s beizutreten"
+
+#. %1$s is the user name, %2$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:125
+#, php-format
+msgid "%1$s loved %2$s"
+msgstr "%1$s liebte %2$s"
+
+#. %1$s is the user name, %2$s is the space title and %3$3s is the time
+#: app/Hooks/Handlers/EmailNotificationHandler.php:367
+#, php-format
+msgid "%1$s mentioned you and others in a post at %2$s [%3$s]"
+msgstr "%1$s hat dich und andere in einem Beitrag auf %2$s [%3$s] erwähnt"
+
+#. %1$s is the commenter name & %2$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:332
+#, php-format
+msgid "%1$s mentioned you in a comment at %2$s"
+msgstr "%1$s hat dich in einem Kommentar bei %2$s erwähnt"
+
+#. %1$s is the user name, %2$s is the feed title
+#: app/Hooks/Handlers/NotificationEventHandler.php:447
+#, php-format
+msgid "%1$s mentioned you in a post: %2$s"
+msgstr "%1$s hat dich in einem Beitrag erwähnt: %2$s"
+
+#: Modules/Auth/Classes/InvitationService.php:241
+#, php-format
+msgid "%1$s on %2$s"
+msgstr "%1$s auf %2$s"
+
+#. %1$s is the user name, %2$s is the feed title and %3$3s is the space title
+#: app/Hooks/Handlers/NotificationEventHandler.php:64
+#, php-format
+msgid "%1$s posted %2$s in %3$s"
+msgstr "%1$s gebucht %2$s in %3$s"
+
+#. %1$s is the person name and %2$s is the feed excerpt
+#: app/Models/Activity.php:88
+#, php-format
+msgid "%1$s published a new status %2$s"
+msgstr "%1$s hat einen neuen Status %2$s veröffentlicht"
+
+#. %1$s is the commenter name & %2$s is the feed excerpt
+#: app/Hooks/Handlers/NotificationEventHandler.php:414
+#, php-format
+msgid "%1$s replied your comment at %2$s"
+msgstr "%1$s antwortete auf deinen Kommentar bei %2$s"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:607
+#, php-format
+msgid "%1$s requested to join %2$s"
+msgstr "%1$s hat beantragt, %2$s beizutreten"
+
+#: app/Services/TransStrings.php:13
+#, php-format
+msgid "%1sClick here%2s to add affiliate ID"
+msgstr "%1sKlicke hier%2s, um die Partner-ID hinzuzufügen"
+
+#: app/Services/TransStrings.php:22
+msgid "%d comment"
+msgstr "%d Kommentar"
+
+#: app/Services/TransStrings.php:23
+msgid "%d comments"
+msgstr "%d Kommentare"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:497
+msgid "%d days"
+msgstr "%d Tage"
+
+#: app/Services/TransStrings.php:14
+msgid "%d Group"
+msgstr "%d Gruppe"
+
+#: app/Services/TransStrings.php:15
+msgid "%d Groups"
+msgstr "%d Gruppen"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:493
+msgid "%d hours"
+msgstr "%d Stunden"
+
+#: app/Services/TransStrings.php:16
+msgid "%d Lesson"
+msgstr "%d Lektion"
+
+#: app/Services/TransStrings.php:17
+msgid "%d Lessons"
+msgstr "%d Lektionen"
+
+#: app/Services/TransStrings.php:24
+msgid "%d lessons"
+msgstr "%d Stunden"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:489
+msgid "%d minutes"
+msgstr "%d Minuten"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:501
+msgid "%d months"
+msgstr "%d Monate"
+
+#: app/Services/TransStrings.php:25
+msgid "%d points"
+msgstr "%d Punkte"
+
+#: app/Services/TransStrings.php:26
+msgid "%d points to level up!"
+msgstr "%d Punkte zum nächsten Level!"
+
+#: app/Services/TransStrings.php:27
+msgid "%d replies"
+msgstr "%d Antworten"
+
+#: app/Services/TransStrings.php:28
+msgid "%d reply"
+msgstr "%d Antwort"
+
+#: app/Services/TransStrings.php:18
+msgid "%d Section"
+msgstr "%d Abschnitt"
+
+#: app/Services/TransStrings.php:19
+msgid "%d Sections"
+msgstr "%d Abschnitte"
+
+#: app/Services/TransStrings.php:20
+msgid "%d Space"
+msgstr "%d Raum"
+
+#: app/Services/TransStrings.php:21
+msgid "%d Spaces"
+msgstr "%d Räume"
+
+#: app/Services/TransStrings.php:29
+msgid "%d student"
+msgstr "%d Schüler"
+
+#: app/Services/TransStrings.php:30
+msgid "%d students"
+msgstr "%d Studenten"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:505
+msgid "%d years"
+msgstr "%d Jahre"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:525
+msgid "%dd"
+msgstr "%dd"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:521
+msgid "%dh"
+msgstr "%dh"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:529
+msgid "%dm"
+msgstr "%dm"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:517
+msgid "%dmin"
+msgstr "%dmin"
+
+#. Relative Date Formats. Don't alter %d
+#: app/Hooks/Handlers/PortalHandler.php:533
+msgid "%dy"
+msgstr "%dy"
+
+#. Relative Date Formats. Please do not alter %s
+#: app/Hooks/Handlers/PortalHandler.php:483
+#: app/Hooks/Handlers/PortalHandler.php:511
+#: app/Services/Libs/DailyDigest.php:195
+#: app/Views/email/Default/_user_post_content.php:35
+#, php-format
+msgid "%s ago"
+msgstr "vor %s"
+
+#: app/Services/TransStrings.php:31
+#, php-format
+msgid "%s Completed"
+msgstr "%s Abgeschlossen"
+
+#: app/Services/TransStrings.php:36
+#, php-format
+msgid "%s did not add any comment to any posts yet"
+msgstr "%s hat noch keinen Kommentar zu einem Beitrag hinzugefügt"
+
+#: Modules/Auth/AuthModdule.php:586
+#, php-format
+msgid ""
+"%s has invited you to join this community. Please create an account to "
+"accept your invitation."
+msgstr ""
+"%s hat dich eingeladen, dieser Community beizutreten. Bitte erstelle ein "
+"Konto, um deine Einladung anzunehmen."
+
+#: Modules/Auth/AuthModdule.php:505
+#, php-format
+msgid ""
+"%s has invited you to join this community. Please login to accept your "
+"invitation."
+msgstr ""
+"%s hat dich eingeladen, dieser Community beizutreten. Bitte logge dich ein, "
+"um deine Einladung anzunehmen."
+
+#: app/Services/TransStrings.php:37
+#, php-format
+msgid "%s lesson"
+msgstr "%s Lektion"
+
+#: app/Services/TransStrings.php:38
+#, php-format
+msgid "%s lessons"
+msgstr "%s Lektionen"
+
+#: app/Services/TransStrings.php:39
+#, php-format
+msgid "%s like"
+msgstr "%s Gefällt mir"
+
+#: app/Services/TransStrings.php:40
+#, php-format
+msgid "%s likes"
+msgstr "%s Gefällt mir"
+
+#: app/Services/TransStrings.php:32
+#, php-format
+msgid "%s Member"
+msgstr "%s Mitglied"
+
+#: app/Services/TransStrings.php:33
+#, php-format
+msgid "%s Members"
+msgstr "%s Mitglieder"
+
+#: app/Services/TransStrings.php:41
+#, php-format
+msgid "%s new posts available"
+msgstr "%s neue Beiträge"
+
+#: app/Services/TransStrings.php:42
+#, php-format
+msgid "%s people requested to join the community."
+msgstr "%s Personen haben darum gebeten, der Community beizutreten."
+
+#: app/Services/TransStrings.php:43
+#, php-format
+msgid "%s result found"
+msgstr "%s Ergebnis gefunden"
+
+#: app/Services/TransStrings.php:44
+#, php-format
+msgid "%s results found"
+msgstr "%s Ergebnisse gefunden"
+
+#: app/Services/TransStrings.php:45
+#, php-format
+msgid "%s student"
+msgstr "%s Schüler"
+
+#: app/Services/TransStrings.php:46
+#, php-format
+msgid "%s students"
+msgstr "%s Studenten"
+
+#: app/Services/TransStrings.php:47
+#, php-format
+msgid "%s topic"
+msgstr "%s Thema"
+
+#: app/Services/TransStrings.php:48
+#, php-format
+msgid "%s topics"
+msgstr "%s Themen"
+
+#: app/Services/TransStrings.php:34
+#, php-format
+msgid "%s Vote"
+msgstr "%s Abstimmen"
+
+#: app/Services/TransStrings.php:35
+#, php-format
+msgid "%s Votes"
+msgstr "%s Stimmen"
+
+#: app/Services/Helper.php:760
+msgid "(Draft)"
+msgstr "(Entwurf)"
+
+#. %d is the number of unread notifications for digest email subject
+#: app/Services/Libs/DailyDigest.php:126
+msgid "(🔔%d)"
+msgstr "(🔔%d)"
+
+#: app/Services/TransStrings.php:49
+msgid "+ Add Section"
+msgstr "+ Abschnitt hinzufügen"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:675
+msgid "+%d more image"
+msgid_plural "+%d more images"
+msgstr[0] "+%d mehr Bild"
+msgstr[1] "+%d weitere Bilder"
+
+#: app/Views/email/Default/_user_post_content.php:52
+msgid "...read more"
+msgstr "...mehr lesen"
+
+#: app/Services/TransStrings.php:50
+msgid "1 Like = 1 Point"
+msgstr "1 Like = 1 Punkt"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:523
+msgid "1d"
+msgstr "1d"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:519
+msgid "1h"
+msgstr "1h"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:527
+msgid "1m"
+msgstr "1m"
+
+#. Relative Date Formats.
+#: app/Hooks/Handlers/PortalHandler.php:515
+msgid "1min"
+msgstr "1min"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:531
+msgid "1y"
+msgstr "1y"
+
+#: Modules/Auth/AuthHelper.php:283
+msgid "2FA Code"
+msgstr "2FA Code"
+
+#: Modules/Auth/AuthHelper.php:45 Modules/Auth/Classes/InvitationService.php:47
+msgid ""
+"<strong>Error:</strong> This email address is already registered. Please "
+"login or try resetting your password."
+msgstr ""
+"<strong>Fehler:</strong> Diese E-Mail Adresse ist bereits registriert. Bitte "
+"melde dich an oder versuche, dein Passwort zurückzusetzen."
+
+#: Modules/Auth/AuthHelper.php:102
+#: Modules/Auth/Classes/InvitationService.php:104
+msgid ""
+"<strong>Error</strong>: Could not register you. Please contact the site "
+"admin!"
+msgstr ""
+"<strong>Fehler</strong>: Du konntest dich nicht registrieren. Bitte wende "
+"dich an den Administrator der Seite!"
+
+#: Modules/Auth/AuthHelper.php:22 Modules/Auth/Classes/InvitationService.php:24
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr "<strong>Fehler</strong>: Bitte gib einen Benutzernamen ein."
+
+#: Modules/Auth/AuthHelper.php:38 Modules/Auth/Classes/InvitationService.php:40
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr "<strong>Fehler</strong>: Bitte gib deine E-Mail Adresse ein."
+
+#: Modules/Auth/AuthHelper.php:32 Modules/Auth/Classes/InvitationService.php:34
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "<strong>Fehler</strong>: Sorry, dieser Benutzername ist nicht erlaubt."
+
+#: Modules/Auth/AuthHelper.php:40 Modules/Auth/Classes/InvitationService.php:42
+msgid "<strong>Error</strong>: The email address is not correct."
+msgstr "<strong>Fehler</strong>: Die E-Mail Adresse ist nicht korrekt."
+
+#: Modules/Auth/AuthHelper.php:27 Modules/Auth/Classes/InvitationService.php:29
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>Fehler</strong>: Dieser Nutzername ist bereits registriert. Bitte "
+"wähle einen anderen."
+
+#: Modules/Auth/AuthHelper.php:24 Modules/Auth/Classes/InvitationService.php:26
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>Fehler</strong>: Dieser Benutzername ist ungültig, weil er "
+"unzulässige Zeichen enthält. Bitte gib einen gültigen Benutzernamen ein."
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:495
+msgid "a day"
+msgstr "einem Tag"
+
+#. Relative Date Formats.
+#: app/Hooks/Handlers/PortalHandler.php:485
+msgid "a few seconds"
+msgstr "ein paar Sekunden"
+
+#. Relative Date Formats.
+#: app/Hooks/Handlers/PortalHandler.php:487
+msgid "a minute"
+msgstr "eine Minute"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:499
+msgid "a month"
+msgstr "einen Monat"
+
+#: app/Services/TransStrings.php:947
+msgid "a new post available"
+msgstr "Ein neuer Beitrag ist online"
+
+#: Modules/Auth/AuthHelper.php:276
+#, php-format
+msgid ""
+"A verification code has been sent to %s. Please provide the code below: "
+msgstr ""
+"Ein Verifizierungscode wurde an %s gesendet. Bitte gib den Code unten ein:"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:503
+msgid "a year"
+msgstr "ein Jahr"
+
+#: app/Services/TransStrings.php:51
+msgid "About"
+msgstr "Info"
+
+#: app/Views/email/Default/_invitation.php:26
+msgid "Accept invitation"
+msgstr "Einladung annehmen"
+
+#: app/Views/auth/logged_in_accept.php:15
+msgid "Accept invitation & continue"
+msgstr "Einladung annehmen & fortfahren"
+
+#: app/Services/TransStrings.php:52
+msgid "Access Status"
+msgstr "Zugang Status"
+
+#: Modules/Auth/AuthHelper.php:173
+msgid "Account Password"
+msgstr "Konto-Passwort"
+
+#: app/Services/TransStrings.php:53
+msgid "Account Verification"
+msgstr "Kontoüberprüfung"
+
+#: app/Services/TransStrings.php:54
+msgid "Action required"
+msgstr "Aktion erforderlich"
+
+#: app/Services/TransStrings.php:55
+msgid "Actions"
+msgstr "Aktionen"
+
+#: Modules/Auth/AuthHelper.php:256
+msgid "Activate your account"
+msgstr "Aktiviere dein Konto"
+
+#: app/Services/TransStrings.php:56
+msgid "Active"
+msgstr "Aktiv"
+
+#: app/Http/Controllers/SettingController.php:186
+msgid "Active Fluent Forms"
+msgstr "Aktive fließende Formulare"
+
+#: app/Http/Controllers/SettingController.php:196
+msgid "Active Fluent SMTP"
+msgstr "Aktives fluentes SMTP"
+
+#: app/Http/Controllers/SettingController.php:206
+msgid "Active Fluent Support"
+msgstr "Aktive fließende Unterstützung"
+
+#: app/Http/Controllers/SettingController.php:166
+msgid "Active FluentCommunity Chat"
+msgstr "Active FluentCommunity Chat"
+
+#: app/Http/Controllers/SettingController.php:176
+msgid "Active FluentCRM"
+msgstr "Aktiv FluentCRM"
+
+#: app/Services/TransStrings.php:57
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: app/Services/TransStrings.php:58
+msgid "Add & Edit"
+msgstr "Hinzufügen & Bearbeiten"
+
+#: app/Services/TransStrings.php:72
+msgid "Add a badge next to user profile name to highlight valued users"
+msgstr ""
+"Füge ein Abzeichen neben dem Namen des Benutzerprofils hinzu, um geschätzte "
+"Benutzer hervorzuheben"
+
+#: app/Services/TransStrings.php:933
+msgid ""
+"Add a personal touch by using emojis when creating a new article, post, or "
+"comment."
+msgstr ""
+"Füge eine persönliche Note hinzu, indem du Emojis verwendest, wenn du einen "
+"neuen Artikel, Beitrag oder Kommentar erstellst."
+
+#: app/Services/TransStrings.php:59
+msgid "Add Another Group"
+msgstr "Eine weitere Gruppe hinzufügen"
+
+#: app/Services/TransStrings.php:73
+#, php-format
+msgid "Add as %s"
+msgstr "Hinzufügen als %s"
+
+#: app/Services/TransStrings.php:74
+msgid "Add button"
+msgstr "Schaltfläche hinzufügen"
+
+#: app/Services/TransStrings.php:60
+msgid "Add Course"
+msgstr "Kurs hinzufügen"
+
+#: app/Services/TransStrings.php:61
+msgid "Add Custom Link"
+msgstr "Benutzerdefinierten Link hinzufügen"
+
+#: app/Services/TransStrings.php:62
+msgid "Add Featured Video for this post"
+msgstr "Featured Video für diesen Beitrag hinzufügen"
+
+#: app/Services/TransStrings.php:63
+msgid "Add Lesson"
+msgstr "Lektion hinzufügen"
+
+#: app/Services/TransStrings.php:64
+msgid "Add Manager"
+msgstr "Manager hinzufügen"
+
+#: app/Services/TransStrings.php:65
+msgid "Add Member"
+msgstr "Mitglied hinzufügen"
+
+#: app/Services/TransStrings.php:66
+msgid "Add More"
+msgstr "Mehr hinzufügen"
+
+#: app/Services/TransStrings.php:67
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: app/Services/TransStrings.php:68
+msgid "Add New Link"
+msgstr "Neuen Link hinzufügen"
+
+#: app/Services/TransStrings.php:75
+msgid "Add social links"
+msgstr "Soziale Links hinzufügen"
+
+#: app/Services/TransStrings.php:69
+msgid "Add Student"
+msgstr "Schüler hinzufügen"
+
+#: app/Services/TransStrings.php:70
+msgid "Add Topic"
+msgstr "Thema hinzufügen"
+
+#: app/Services/TransStrings.php:71
+msgid "Add Video from custom HTML Code"
+msgstr "Video aus benutzerdefiniertem HTML-Code hinzufügen"
+
+#: app/Services/TransStrings.php:76
+msgid "Add your profile description"
+msgstr "Füge deine Profilbeschreibung hinzu"
+
+#: app/Services/TransStrings.php:77
+msgid "Add your social media profile link."
+msgstr "Füge den Link zu deinem Social Media Profil hinzu."
+
+#: app/Services/TransStrings.php:78
+msgid ""
+"Adds icons next to text in header menu items, enhancing visual appeal and "
+"improving navigation clarity."
+msgstr ""
+"Fügt Symbole neben dem Text in den Kopfzeilen-Menüpunkten hinzu, um die "
+"Optik zu verbessern und die Navigation übersichtlicher zu gestalten."
+
+#: app/Services/TransStrings.php:79
+msgid ""
+"Adds the default Feed link in the sidebar, providing an extra access point "
+"to the all feeds page"
+msgstr ""
+"Fügt den Standard-Feed-Link in der Seitenleiste hinzu und bietet einen "
+"zusätzlichen Zugang zur Seite mit allen Feeds"
+
+#: app/Services/TransStrings.php:80
+msgid "Admin"
+msgstr "Admin"
+
+#: app/Services/TransStrings.php:81
+msgid "Admin Actions"
+msgstr "Admin-Aktionen"
+
+#: app/Services/TransStrings.php:82
+msgid "Admin Only?"
+msgstr "Nur für Administratoren?"
+
+#: app/Services/TransStrings.php:83
+msgid "Admin tools for account verification and status management."
+msgstr "Verwaltungstools für die Kontoverifizierung und Statusverwaltung."
+
+#: app/Services/TransStrings.php:84
+msgid "Admin/Moderators Only"
+msgstr "Nur Administratoren/Moderatoren"
+
+#: app/Services/TransStrings.php:85
+msgid "Advanced Features"
+msgstr "Erweiterte Funktionen"
+
+#: app/Services/TransStrings.php:86
+msgid "Advanced Features & Addons"
+msgstr "Erweiterte Funktionen & Addons"
+
+#: app/Services/TransStrings.php:87
+msgid "Affiliate ID"
+msgstr "Partner-ID"
+
+#: app/Services/TransStrings.php:88
+#, php-format
+msgid "Affiliate ID: %s"
+msgstr "Partner-ID: %s"
+
+#: app/Services/TransStrings.php:948
+#, php-format
+msgid "after %s days of enrollment"
+msgstr "nach %s Tagen der Immatrikulation"
+
+#: app/Services/TransStrings.php:89
+msgid "All"
+msgstr "Alle"
+
+#: app/Services/TransStrings.php:929
+msgid ""
+"All Administrators or edit_pages permissions users can access regardless of "
+"the selected roles"
+msgstr ""
+"Alle Benutzer mit der Berechtigung \"Administrator\" oder \"edit_pages\" "
+"können unabhängig von den ausgewählten Rollen zugreifen"
+
+#: app/Services/TransStrings.php:90
+msgid "All Courses"
+msgstr "Alle Kurse"
+
+#: app/Services/TransStrings.php:91
+msgid "All Feeds"
+msgstr "Alle Feeds"
+
+#: app/Services/TransStrings.php:97
+msgid "All is well! This dashboard will be updated with something awesome!"
+msgstr ""
+"Alles ist gut! Dieses Dashboard wird mit etwas Großartigem aktualisiert "
+"werden!"
+
+#: app/Services/TransStrings.php:92
+msgid "All Members"
+msgstr "Alle Mitglieder"
+
+#: app/Services/TransStrings.php:93
+msgid "All Notifications"
+msgstr "Alle Benachrichtigungen"
+
+#: app/Http/Controllers/NotificationsController.php:65
+msgid "All notifications have been marked as read."
+msgstr "Alle Benachrichtigungen wurden als gelesen markiert."
+
+#: app/Services/TransStrings.php:94
+msgid "All Posts"
+msgstr "Alle Beiträge"
+
+#: app/Services/TransStrings.php:95
+msgid "All Space Groups"
+msgstr "Alle Raum Gruppen"
+
+#: app/Services/TransStrings.php:96
+msgid "All Spaces"
+msgstr "Alle Räume"
+
+#: app/Services/TransStrings.php:98
+msgid "Allow members to close the welcome banner"
+msgstr "Erlaube den Mitgliedern, das Willkommensbanner zu schließen"
+
+#: app/Services/TransStrings.php:99
+msgid "Allow users to request to join this Space"
+msgstr "Erlaube Nutzern, den Beitritt zu diesem Space zu beantragen"
+
+#: app/Services/TransStrings.php:100
+msgid "Alphabetical"
+msgstr "Alphabetisch"
+
+#: app/Views/auth/user_invitation.php:34
+msgid "Already have an account?"
+msgstr "Du hast bereits ein Konto?"
+
+#: app/Services/TransStrings.php:101
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: app/Services/TransStrings.php:102
+msgid "Amazon S3 Access Key"
+msgstr "Amazon S3 Zugangsschlüssel"
+
+#: app/Services/TransStrings.php:103
+msgid "Amazon S3 Bucket Name"
+msgstr "Amazon S3 Bucket Name"
+
+#: app/Services/TransStrings.php:104
+msgid "Amazon S3 Location"
+msgstr "Amazon S3 Standort"
+
+#: app/Services/TransStrings.php:105
+msgid "Amazon S3 Secret Key"
+msgstr "Amazon S3 Geheimschlüssel"
+
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:47
+msgid "An Automated double-opt-in email will be sent for new subscribers"
+msgstr ""
+"Für neue Abonnenten wird eine automatische Double-Opt-In-E-Mail verschickt"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:46
+msgid "An Automated double-optin email will be sent for new subscribers"
+msgstr ""
+"Für neue Abonnenten wird eine automatische Double-Optin-E-Mail verschickt"
+
+#. Relative Date Formats
+#: app/Hooks/Handlers/PortalHandler.php:491
+msgid "an hour"
+msgstr "eine Stunde"
+
+#: app/Services/TransStrings.php:106
+msgid "Any Logged in users"
+msgstr "Alle eingeloggten Benutzer"
+
+#: app/Services/TransStrings.php:107
+msgid "Any Member Can Invite Other Members"
+msgstr "Jedes Mitglied kann andere Mitglieder einladen"
+
+#: app/Services/TransStrings.php:941
+msgid ""
+"Any member can view posts without joining. Only members can create posts"
+msgstr ""
+"Jedes Mitglied kann Beiträge ansehen, ohne Mitglied zu werden. Nur "
+"Mitglieder können Beiträge erstellen"
+
+#: app/Services/TransStrings.php:937
+msgid "Any site member can see who's in the Space and what they post."
+msgstr ""
+"Jedes Mitglied der Website kann sehen, wer im Space ist und was er postet."
+
+#: app/Services/TransStrings.php:108
+msgid "Anyone"
+msgstr "Jeder"
+
+#: app/Services/TransStrings.php:109
+msgid "Anyone can view and enroll the course for free"
+msgstr "Jeder kann den Kurs kostenlos ansehen und sich anmelden"
+
+#: app/Services/TransStrings.php:939
+msgid ""
+"Anyone can view the basic info of the space. Only members can view & create "
+"posts.<br />Admin needs to approve the joining request."
+msgstr ""
+"Jeder kann die Grundinformationen des Raums einsehen. Nur Mitglieder können "
+"Beiträge sehen und erstellen.<br />Der Admin muss die Beitrittsanfrage "
+"genehmigen."
+
+#: app/Services/TransStrings.php:110
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: app/Services/TransStrings.php:111
+msgid "Approve"
+msgstr "Genehmigen Sie"
+
+#: app/Services/TransStrings.php:112
+msgid "Approve Access"
+msgstr "Zugang genehmigen"
+
+#: app/Services/TransStrings.php:113
+msgid "Approve Account"
+msgstr "Konto genehmigen"
+
+#: app/Services/TransStrings.php:114
+msgid ""
+"Approximate time when the digest emails will start sending for the members"
+msgstr ""
+"Ungefährer Zeitpunkt, ab dem die E-Mails für die Mitglieder verschickt werden"
+
+#: app/Services/TransStrings.php:115
+msgid "April"
+msgstr "April"
+
+#: app/Services/TransStrings.php:116
+msgid "Are you sure you want to approve this user?"
+msgstr "Bist du sicher, dass du diesen Benutzer zulassen willst?"
+
+#: app/Services/TransStrings.php:117
+msgid "Are you sure you want to change username?"
+msgstr "Bist du sicher, dass du deinen Benutzernamen ändern möchtest?"
+
+#: app/Services/TransStrings.php:118
+msgid "Are you sure you want to delete this comment and associated data?"
+msgstr ""
+"Bist du sicher, dass du diesen Kommentar und die damit verbundenen Daten "
+"löschen möchtest?"
+
+#: app/Services/TransStrings.php:119
+msgid "Are you sure you want to delete this course?"
+msgstr "Bist du sicher, dass du diesen Kurs löschen willst?"
+
+#: app/Services/TransStrings.php:120
+msgid "Are you sure you want to delete this feed?"
+msgstr "Bist du sicher, dass du diesen Beitrag löschen willst?"
+
+#: app/Services/TransStrings.php:121
+msgid "Are you sure you want to delete this invitation?"
+msgstr "Bist du sicher, dass du diese Einladung löschen willst?"
+
+#: app/Services/TransStrings.php:122
+msgid ""
+"Are you sure you want to delete this lesson? All the associated data will be "
+"deleted too."
+msgstr ""
+"Bist du sicher, dass du diese Lektion löschen willst? Alle zugehörigen Daten "
+"werden ebenfalls gelöscht."
+
+#: app/Services/TransStrings.php:123
+msgid ""
+"Are you sure you want to delete this section? All the associated lessons and "
+"enrollment data will be deleted too."
+msgstr ""
+"Bist du sicher, dass du diesen Bereich löschen willst? Alle zugehörigen "
+"Unterrichtsstunden und Einschreibungsdaten werden ebenfalls gelöscht."
+
+#: app/Services/TransStrings.php:124
+msgid "Are you sure you want to delete this space?"
+msgstr "Bist du sicher, dass du diesen Bereich löschen willst?"
+
+#: app/Services/TransStrings.php:125
+msgid "Are you sure you want to leave this community?"
+msgstr "Bist du sicher, dass du diese Community verlassen willst?"
+
+#: app/Services/TransStrings.php:126
+msgid ""
+"Are you sure you want to mention everyone? An automated email will be sent "
+"to all the members of the space after 5 minutes for this post"
+msgstr ""
+"Bist du sicher, dass du alle erwähnen willst? Eine automatische E-Mail wird "
+"nach 5 Minuten an alle Mitglieder des Raums für diesen Beitrag gesendet"
+
+#: app/Services/TransStrings.php:127
+msgid "Are you sure you want to remove this group?"
+msgstr "Bist du sicher, dass du diese Gruppe entfernen willst?"
+
+#: app/Services/TransStrings.php:128
+msgid "Are you sure you want to remove this link?"
+msgstr "Bist du sicher, dass du diesen Link entfernen möchtest?"
+
+#: app/Services/TransStrings.php:129
+msgid "Are you sure you want to remove this manager?"
+msgstr "Bist du sicher, dass du diesen Manager entfernen möchtest?"
+
+#: app/Services/TransStrings.php:130
+msgid "Are you sure you want to remove this member from this community?"
+msgstr ""
+"Bist du sicher, dass du dieses Mitglied aus der Community entfernen möchtest?"
+
+#: app/Services/TransStrings.php:131
+msgid "Are you sure you want to remove this student from this course?"
+msgstr ""
+"Bist du sicher, dass du diesen Schüler aus diesem Kurs entfernen möchtest?"
+
+#: app/Services/TransStrings.php:132
+msgid "Are you sure you want to remove this topic?"
+msgstr "Bist du sicher, dass du dieses Thema entfernen möchtest?"
+
+#: app/Services/TransStrings.php:133
+msgid "Are you sure?"
+msgstr "Bist du sicher?"
+
+#: app/Services/TransStrings.php:134
+msgid ""
+"As you gain points, you level up. Your level is shown at the bottom right of "
+"your avatar."
+msgstr ""
+"Wenn du Punkte sammelst, steigst du auf. Dein Level wird unten rechts neben "
+"deinem Avatar angezeigt."
+
+#: app/Services/TransStrings.php:135
+msgid "Attach video"
+msgstr "Video anhängen"
+
+#: app/Services/TransStrings.php:136
+msgid "August"
+msgstr "August"
+
+#: app/Services/TransStrings.php:137
+msgid "Available on Pro"
+msgstr "Verfügbar auf Pro"
+
+#: app/Services/TransStrings.php:949
+msgid "avatar"
+msgstr "avatar"
+
+#: app/Services/TransStrings.php:138
+msgid "Average completion rate"
+msgstr "Durchschnittliche Abschlussquote"
+
+#: app/Services/TransStrings.php:140
+msgid "Back to course index"
+msgstr "Zurück zum Kursindex"
+
+#: app/Services/TransStrings.php:141
+msgid "Back to home"
+msgstr "Zurück nach Hause"
+
+#: app/Services/TransStrings.php:139
+msgid "Back to Lessons"
+msgstr "Zurück zu den Lektionen"
+
+#: Modules/Auth/AuthModdule.php:164
+msgid "Back to Login"
+msgstr "Zurück zu Login"
+
+#: app/Services/TransStrings.php:142
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: app/Services/TransStrings.php:143
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: app/Services/TransStrings.php:144
+msgid "Badge"
+msgstr "Abzeichen"
+
+#: app/Services/TransStrings.php:145
+msgid "Badge Title"
+msgstr "Abzeichen Titel"
+
+#: app/Services/TransStrings.php:146
+msgid "Basic Info"
+msgstr "Grundlegende Informationen"
+
+#: app/Services/TransStrings.php:147
+msgid "Blocked"
+msgstr "Blockiert"
+
+#: app/Services/TransStrings.php:148
+msgid "Bookmark this post"
+msgstr "Diesen Beitrag speichern"
+
+#: app/Services/TransStrings.php:149
+msgid "Bookmarked"
+msgstr "Gespeichert"
+
+#: app/Services/Helper.php:951
+msgid "Bookmarks"
+msgstr "Lesezeichen"
+
+#: app/Services/TransStrings.php:150
+msgid "Bucket Sub-Folder (Optional)"
+msgstr "Unterordner für Eimer (optional)"
+
+#: app/Services/TransStrings.php:932
+msgid ""
+"Build structured lessons within your courses. Control visibility by setting "
+"courses as public or private and so on."
+msgstr ""
+"Erstelle strukturierte Lektionen in deinen Kursen. Kontrolliere die "
+"Sichtbarkeit, indem du Kurse als öffentlich oder privat einstellst usw."
+
+#: app/Services/TransStrings.php:151
+msgid "Button Background"
+msgstr "Schaltfläche Hintergrund"
+
+#: app/Services/TransStrings.php:152
+msgid "Button Label"
+msgstr "Schaltfläche Etikett"
+
+#: app/Services/TransStrings.php:153
+msgid "Button Link"
+msgstr "Schaltfläche Link"
+
+#: app/Services/TransStrings.php:154
+msgid "Button Type"
+msgstr "Taste Typ"
+
+#: app/Services/TransStrings.php:950
+#, php-format
+msgid "by %s"
+msgstr "von %s"
+
+#: app/Services/TransStrings.php:155
+msgid "Call to Action"
+msgstr "Aufruf zum Handeln"
+
+#: app/Services/TransStrings.php:156
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: app/Services/TransStrings.php:951
+msgid "cancel"
+msgstr "abbrechen"
+
+#: app/Services/TransStrings.php:157
+msgid "Cancelled"
+msgstr "Abgesagt"
+
+#: app/Services/TransStrings.php:158
+msgid "Cannot be deleted"
+msgstr "Kann nicht gelöscht werden"
+
+#: app/Services/TransStrings.php:159
+msgid ""
+"Categorize your content and allow members to filter posts with the topic "
+"navigation bar in spaces."
+msgstr ""
+"Kategorisiere deine Inhalte und erlaube den Mitgliedern, Beiträge mit der "
+"Themennavigationsleiste in den Räumen zu filtern."
+
+#: app/Services/TransStrings.php:160
+msgid ""
+"Categorize your course and allow members to filter courses with the topic "
+"navigation bar in the courses directory. You can define up to 20 topics per "
+"course."
+msgstr ""
+"Kategorisiere deinen Kurs und erlaube den Mitgliedern, die Kurse mit der "
+"Themennavigationsleiste im Kursverzeichnis zu filtern. Du kannst bis zu 20 "
+"Themen pro Kurs festlegen."
+
+#: app/Services/TransStrings.php:161
+msgid ""
+"Categorize your posts and allow members to filter spaces with the topic "
+"navigation bar. You can define up to 20 topics per space."
+msgstr ""
+"Kategorisiere deine Beiträge und erlaube den Mitgliedern, die Bereiche mit "
+"der Themennavigationsleiste zu filtern. Du kannst bis zu 20 Themen pro "
+"Bereich festlegen."
+
+#: app/Services/TransStrings.php:162
+msgid "Change"
+msgstr "Ändern"
+
+#: app/Services/TransStrings.php:952
+msgid "change"
+msgstr "ändern"
+
+#: app/Services/TransStrings.php:163
+msgid "Change Cover"
+msgstr "Abdeckung ändern"
+
+#: app/Services/TransStrings.php:164
+msgid "Change Membership"
+msgstr "Mitgliedschaft ändern"
+
+#: app/Services/TransStrings.php:165
+msgid "Chat"
+msgstr "Chat"
+
+#: app/Services/TransStrings.php:166
+msgid "Choose a Space Type"
+msgstr "Wähle einen Raumtyp"
+
+#: app/Services/TransStrings.php:167
+msgid "Choose the privacy settings for spaces page of a member profile."
+msgstr ""
+"Wähle die Privatsphäre-Einstellungen für die Raumseite eines "
+"Mitgliederprofils."
+
+#: app/Services/TransStrings.php:168
+#, php-format
+msgid "Choose up to %s topics (optional)"
+msgstr "Wähle bis zu %s Themen (optional)"
+
+#: app/Services/TransStrings.php:169
+msgid "Choose up to 20 topics"
+msgstr "Wähle bis zu 20 Themen"
+
+#: app/Services/TransStrings.php:170
+msgid ""
+"Choose where to store your media files. Options include Local File System, "
+"Amazon S3, or Cloudflare R2 for storing and serving your media assets"
+msgstr ""
+"Wähle aus, wo du deine Mediendateien speichern möchtest. Zu den Optionen "
+"gehören Local File System, Amazon S3 oder Cloudflare R2 für die Speicherung "
+"und Bereitstellung deiner Medieninhalte"
+
+#: app/Services/TransStrings.php:931
+msgid ""
+"Choose where to store your media files. Options include Local File System, "
+"Amazon S3, or Cloudflare R2 for storing and serving your media assets."
+msgstr ""
+"Wähle aus, wo du deine Mediendateien speichern willst. Zu den Optionen "
+"gehören Local File System, Amazon S3 oder Cloudflare R2 für die Speicherung "
+"und Bereitstellung deiner Medieninhalte."
+
+#: app/Services/TransStrings.php:171
+msgid ""
+"Choose whether the all-members page should be public, private, or "
+"admin/moderator only."
+msgstr ""
+"Wähle aus, ob die Seite für alle Mitglieder öffentlich, privat oder nur für "
+"Administratoren/Moderatoren sein soll."
+
+#: app/Services/TransStrings.php:172
+msgid "Classic"
+msgstr "Klassisch"
+
+#: app/Services/TransStrings.php:173
+msgid "Classic: Image/Video after the content. Modern: Image/Video at first"
+msgstr "Klassisch: Bild/Video nach dem Inhalt. Modern: Bild/Video am Anfang"
+
+#: app/Services/TransStrings.php:175
+msgid "Click here"
+msgstr "Klick hier"
+
+#: app/Views/email/Default/_invitation.php:23
+msgid "Click here to accept your invitation:"
+msgstr "Klicke hier, um deine Einladung anzunehmen:"
+
+#: app/Services/TransStrings.php:174
+msgid "Click Here to Renew your License"
+msgstr "Klicke hier, um deine Lizenz zu erneuern"
+
+#: app/Services/TransStrings.php:176
+msgid "Click to view"
+msgstr "Zum Ansehen klicken"
+
+#: app/Services/TransStrings.php:177
+msgid "Close"
+msgstr "Schließen"
+
+#: app/Services/TransStrings.php:178
+msgid "Cloudflare Access Key"
+msgstr "Cloudflare Zugangsschlüssel"
+
+#: app/Services/TransStrings.php:179
+msgid "Cloudflare Account ID"
+msgstr "Cloudflare Konto-ID"
+
+#: app/Services/TransStrings.php:180
+msgid "Cloudflare Bucket Name"
+msgstr "Cloudflare Bucket Name"
+
+#: app/Services/TransStrings.php:181
+msgid "Cloudflare Bucket Public URL"
+msgstr "Cloudflare Bucket Öffentliche URL"
+
+#: app/Services/TransStrings.php:182
+msgid "Cloudflare R2 (Recommended)"
+msgstr "Cloudflare R2 (empfohlen)"
+
+#: app/Services/TransStrings.php:183
+msgid "Cloudflare Secret Key"
+msgstr "Cloudflare Geheimschlüssel"
+
+#: app/Http/Controllers/SettingController.php:187
+msgid ""
+"Collect leads and build any type of forms, accept payments, connect with "
+"your CRM with the Fastest Contact Form Builder Plugin for WordPress"
+msgstr ""
+"Sammle Leads und erstelle jede Art von Formularen, akzeptiere Zahlungen und "
+"verbinde dich mit deinem CRM mit dem schnellsten Contact Form Builder Plugin "
+"für WordPress"
+
+#: app/Services/TransStrings.php:184
+msgid "Color"
+msgstr "Farbe"
+
+#: app/Services/TransStrings.php:185
+msgid "Comment"
+msgstr "Kommentar"
+
+#: app/Http/Controllers/CommentsController.php:130
+msgid "Comment has been added"
+msgstr "Kommentar wurde hinzugefügt"
+
+#: app/Http/Controllers/CommentsController.php:205
+msgid "Comment has been updated"
+msgstr "Der Kommentar wurde aktualisiert"
+
+#: app/Http/Controllers/CommentsController.php:272
+msgid "Comment text is too long"
+msgstr "Kommentartext ist zu lang"
+
+#: app/Services/TransStrings.php:186
+msgid "Comment updated successfully"
+msgstr "Kommentar erfolgreich aktualisiert"
+
+#: app/Services/TransStrings.php:187
+msgid "Commented in"
+msgstr "Kommentiert in"
+
+#: app/Views/email/Default/_user_box_content.php:14
+msgid "commented on:"
+msgstr "kommentiert:"
+
+#: app/Services/TransStrings.php:188
+msgid "Comments"
+msgstr "Kommentare"
+
+#: app/Services/TransStrings.php:189
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentare (%s)"
+
+#: app/Http/Controllers/CommentsController.php:281
+msgid "Comments are disabled for this post"
+msgstr "Kommentare sind für diesen Beitrag deaktiviert"
+
+#: app/Services/TransStrings.php:190
+msgid "Comments are disabled for this post."
+msgstr "Kommentare sind für diesen Beitrag deaktiviert."
+
+#: app/Services/TransStrings.php:953
+msgid "comments disabled"
+msgstr "kommentare deaktiviert für"
+
+#: app/Services/TransStrings.php:191
+msgid "Comments have been disabled."
+msgstr "Kommentare wurden deaktiviert."
+
+#: app/Services/TransStrings.php:192
+msgid "Comments have been enabled."
+msgstr "Die Kommentare wurden aktiviert."
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:470
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:24
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:25
+msgid "Community"
+msgstr "Community"
+
+#: app/Services/TransStrings.php:193
+msgid "Community Account Username"
+msgstr "Community-Konto-Benutzername"
+
+#: app/Services/TransStrings.php:194
+msgid "Community Managers"
+msgstr "Community-Manager"
+
+#: app/Services/TransStrings.php:195
+msgid "Community Title"
+msgstr "Community Titel"
+
+#: app/Services/TransStrings.php:196
+msgid "Community title"
+msgstr "Titel der Community"
+
+#: app/Http/Controllers/ProfileController.php:177
+#: app/Http/Controllers/ProfileController.php:210
+msgid "Community Username already taken by someone else"
+msgstr "Community Benutzername bereits von jemand anderem besetzt"
+
+#: app/Services/TransStrings.php:197
+msgid "Complete Lesson"
+msgstr "Lektion abschließen"
+
+#: Modules/Auth/AuthHelper.php:290
+msgid "Complete Signup"
+msgstr "Vollständige Anmeldung"
+
+#: app/Services/TransStrings.php:198
+msgid "Complete your profile"
+msgstr "Vervollständige dein Profil"
+
+#: app/Services/TransStrings.php:199
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: app/Services/TransStrings.php:200
+#, php-format
+msgid "Completed %1s of %2s"
+msgstr "Abgeschlossen %1s von %2s"
+
+#: app/Services/TransStrings.php:201
+msgid "Config could not be loaded"
+msgstr "Config konnte nicht geladen werden"
+
+#: app/Services/TransStrings.php:202
+msgid "Configure"
+msgstr "Konfigurieren Sie"
+
+#: app/Services/TransStrings.php:203
+msgid "Configure Media Storage"
+msgstr "Medienspeicher konfigurieren"
+
+#: app/Services/TransStrings.php:204
+msgid "Confirm Delete"
+msgstr "Bestätigen Löschen"
+
+#: Modules/Auth/AuthModdule.php:384
+msgid "Congratulations!"
+msgstr "Herzlichen Glückwunsch!"
+
+#: app/Services/TransStrings.php:205
+msgid "Congratulations! Course completed! 🎉"
+msgstr "Herzlichen Glückwunsch! Kurs abgeschlossen! 🎉"
+
+#: app/Services/TransStrings.php:206
+msgid "Content"
+msgstr "Inhalt"
+
+#: app/Services/TransStrings.php:207
+msgid "Continue"
+msgstr "Weiter"
+
+#: app/Services/TransStrings.php:208
+msgid "Continue Course"
+msgstr "Kurs fortsetzen"
+
+#: Modules/Auth/AuthModdule.php:382 Modules/Auth/AuthModdule.php:476
+msgid "Continue to the community"
+msgstr "Weiter zur Gemeinde"
+
+#: app/Services/TransStrings.php:209
+msgid "Copy"
+msgstr "Kopiere"
+
+#: app/Services/TransStrings.php:210
+msgid "Copy Link"
+msgstr "Link kopieren"
+
+#: app/Services/TransStrings.php:211
+msgid "Course"
+msgstr "Kurs"
+
+#: app/Services/TransStrings.php:954
+msgid "course"
+msgstr "kurs"
+
+#: app/Services/TransStrings.php:212
+msgid "Course Admin"
+msgstr "Kursverwaltung"
+
+#: app/Services/TransStrings.php:224
+msgid "Course content"
+msgstr "Kursinhalt"
+
+#: app/Services/TransStrings.php:213
+msgid "Course Creator"
+msgstr "Kursersteller"
+
+#: app/Services/TransStrings.php:214
+msgid "Course Description"
+msgstr "Kursbeschreibung"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:250
+msgid "Course has been deleted successfully along with all the associated data"
+msgstr ""
+"Der Kurs wurde zusammen mit allen zugehörigen Daten erfolgreich gelöscht"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:218
+msgid "Course has been updated successfully."
+msgstr "Der Kurs wurde erfolgreich aktualisiert."
+
+#: Modules/Course/Http/Controllers/CourseController.php:234
+msgid "Course is not in published state."
+msgstr "Der Kurs ist nicht im veröffentlichten Zustand."
+
+#: app/Services/TransStrings.php:215
+msgid "Course Links"
+msgstr "Kurs Links"
+
+#: app/Services/TransStrings.php:216
+msgid "Course Management"
+msgstr "Kursmanagement"
+
+#: app/Services/TransStrings.php:217
+msgid "Course Module"
+msgstr "Kursmodul"
+
+#: app/Services/TransStrings.php:219
+msgid "Course Module is disabled"
+msgstr "Das Kursmodul ist deaktiviert"
+
+#: app/Services/TransStrings.php:220
+msgid "Course Module is disabled. Please enable the course module first"
+msgstr "Das Kursmodul ist deaktiviert. Bitte aktiviere zuerst das Kursmodul"
+
+#: app/Services/TransStrings.php:218
+msgid "Course Module Settings"
+msgstr "Kursmodul-Einstellungen"
+
+#: app/Services/TransStrings.php:225
+msgid "Course progress"
+msgstr "Kursfortschritt"
+
+#: app/Services/TransStrings.php:221
+msgid "Course Slug (no spaces or special characters)"
+msgstr "Kursname (keine Leerzeichen oder Sonderzeichen)"
+
+#: app/Services/TransStrings.php:226
+msgid ""
+"Course starts on a specific date. Sections are dripped relative to that date."
+msgstr ""
+"Der Kurs beginnt an einem bestimmten Datum. Die Abschnitte werden relativ zu "
+"diesem Datum getropft."
+
+#: app/Services/TransStrings.php:943
+msgid ""
+"Course starts when a member enrolls. All content is available immediately."
+msgstr ""
+"Der Kurs beginnt, wenn sich ein Mitglied anmeldet. Alle Inhalte sind sofort "
+"verfügbar."
+
+#: app/Services/TransStrings.php:944
+msgid ""
+"Course starts when a member enrolls. Sections are dripped relative to their "
+"enrollment date."
+msgstr ""
+"Der Kurs beginnt, wenn sich ein Mitglied anmeldet. Die Abschnitte werden im "
+"Verhältnis zum Einschreibedatum getropft."
+
+#: app/Services/TransStrings.php:222
+msgid "Course Students"
+msgstr "Kursteilnehmer"
+
+#: app/Services/TransStrings.php:223
+msgid "Course Title"
+msgstr "Kurs Titel"
+
+#: app/Services/TransStrings.php:227
+msgid "Courses"
+msgstr "Kurse"
+
+#: app/Services/TransStrings.php:228
+msgid "Cover Photo"
+msgstr "Titelfoto"
+
+#: app/Services/TransStrings.php:229
+msgid "Create"
+msgstr "Erstellen"
+
+#: app/Services/TransStrings.php:231
+msgid "Create a Course"
+msgstr "Einen Kurs erstellen"
+
+#: app/Services/TransStrings.php:232
+msgid "Create a Discussion Space"
+msgstr "Einen Diskussionsraum schaffen"
+
+#: app/Services/TransStrings.php:234
+msgid "Create a new course"
+msgstr "Einen neuen Kurs erstellen"
+
+#: app/Services/TransStrings.php:233
+msgid "Create a new Group"
+msgstr "Eine neue Gruppe erstellen"
+
+#: Modules/Auth/AuthModdule.php:188
+msgid "Create an account to join the community"
+msgstr "Erstelle ein Konto, um der Community beizutreten"
+
+#: app/Services/TransStrings.php:230
+msgid "Create New Group"
+msgstr "Neue Gruppe erstellen"
+
+#: app/Services/TransStrings.php:955
+msgid "created a poll"
+msgstr "eine Umfrage erstellt"
+
+#: app/Services/TransStrings.php:235
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: app/Services/TransStrings.php:236
+msgid "Custom Auth URL"
+msgstr "Benutzerdefinierte Auth URL"
+
+#: app/Services/TransStrings.php:237
+msgid "Custom HTML Code"
+msgstr "Benutzerdefinierter HTML-Code"
+
+#: app/Services/TransStrings.php:238
+msgid "Custom Image"
+msgstr "Benutzerdefiniertes Bild"
+
+#: app/Services/TransStrings.php:239
+msgid "Custom Lock Screen"
+msgstr "Benutzerdefinierter Sperrbildschirm"
+
+#: app/Services/TransStrings.php:240
+msgid "Custom SVG"
+msgstr "Benutzerdefinierte SVG"
+
+#: app/Services/TransStrings.php:241
+msgid "Customization"
+msgstr "Anpassung"
+
+#: app/Services/TransStrings.php:242
+msgid "Customization Settings"
+msgstr "Anpassungseinstellungen"
+
+#: app/Http/Controllers/SettingController.php:412
+msgid "Customization settings have been saved successfully."
+msgstr "Die Anpassungseinstellungen wurden erfolgreich gespeichert."
+
+#: app/Services/TransStrings.php:243
+msgid "Customizations"
+msgstr "Anpassungen"
+
+#: app/Services/TransStrings.php:246
+msgid "Customize the privacy and compliance settings as per your needs."
+msgstr ""
+"Passe die Datenschutz- und Compliance-Einstellungen nach deinen Bedürfnissen "
+"an."
+
+#: app/Services/TransStrings.php:245
+msgid "Customize the UI features of the portal."
+msgstr "Passe die UI-Funktionen des Portals an."
+
+#: app/Services/TransStrings.php:244
+msgid "Customize Your Giphy Module Settings"
+msgstr "Anpassen der Einstellungen deines Giphy-Moduls"
+
+#: app/Services/TransStrings.php:247
+msgid "Customize your portal"
+msgstr "Passe dein Portal an"
+
+#: app/Services/TransStrings.php:248
+msgid "Day"
+msgstr "Tag"
+
+#: app/Services/TransStrings.php:249
+msgid "Days"
+msgstr "Tage"
+
+#: app/Services/TransStrings.php:250
+msgid "December"
+msgstr "Dezember"
+
+#: app/Services/TransStrings.php:251
+msgid "Decline"
+msgstr "Abstieg"
+
+#: app/Services/TransStrings.php:252
+msgid "Default"
+msgstr "Standard"
+
+#: app/Services/TransStrings.php:253
+msgid "Default Layout Styles"
+msgstr "Standard-Layoutstile"
+
+#: app/Services/TransStrings.php:254
+msgid "Default Lock Screen"
+msgstr "Standard-Sperrbildschirm"
+
+#: app/Services/TransStrings.php:255
+msgid "Default Login URL"
+msgstr "Standard Login URL"
+
+#: app/Services/TransStrings.php:256
+msgid "Default Open Graph Image"
+msgstr "Standard Open Graph Bild"
+
+#: app/Services/TransStrings.php:257
+msgid "Default Signup URL"
+msgstr "Standard-Anmelde-URL"
+
+#: app/Services/TransStrings.php:258
+msgid "Delete"
+msgstr "Löschen"
+
+#: app/Services/TransStrings.php:259
+msgid "Delete Course"
+msgstr "Kurs löschen"
+
+#: app/Services/TransStrings.php:260
+msgid "Delete Lesson"
+msgstr "Lektion löschen"
+
+#: app/Services/TransStrings.php:262
+msgid "Delete section"
+msgstr "Abschnitt löschen"
+
+#: app/Services/TransStrings.php:261
+msgid "Delete Space"
+msgstr "Raum löschen"
+
+#: app/Services/TransStrings.php:263
+msgid "Description"
+msgstr "Beschreibung"
+
+#: app/Services/TransStrings.php:264
+msgid "Description (optional)"
+msgstr "Beschreibung (optional)"
+
+#: app/Services/TransStrings.php:265
+msgid "Description of the topic"
+msgstr "Beschreibung des Themas"
+
+#: app/Services/TransStrings.php:266
+msgid "Design"
+msgstr "Entwurf"
+
+#: app/Services/TransStrings.php:267
+msgid "Disable Comments"
+msgstr "Kommentare deaktivieren"
+
+#: app/Services/TransStrings.php:268
+msgid "Disable powered by FluentCommunity in the email footer"
+msgstr "Deaktiviere powered by FluentCommunity in der Fußzeile der E-Mail"
+
+#: app/Services/TransStrings.php:269
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: app/Services/TransStrings.php:956
+msgid "disabled"
+msgstr "deaktiviert"
+
+#: app/Services/TransStrings.php:270
+msgid "Discover exciting new features now!"
+msgstr "Entdecke jetzt spannende neue Funktionen!"
+
+#: app/Services/TransStrings.php:271
+msgid "Discussion Space"
+msgstr "Diskussion Raum"
+
+#: app/Services/TransStrings.php:272
+msgid "Display Name"
+msgstr "Name anzeigen"
+
+#: app/Services/TransStrings.php:273
+msgid ""
+"Displays a 'Powered by FluentCommunity' link, showing support for the "
+"platform and increasing its visibility."
+msgstr ""
+"Zeigt einen \"Powered by FluentCommunity\"-Link an, der die Unterstützung "
+"für die Plattform zeigt und ihre Sichtbarkeit erhöht."
+
+#: app/Services/TransStrings.php:274
+msgid ""
+"Do not use your community portal URL here. Maybe you can use your "
+"login/signup URL"
+msgstr ""
+"Verwende hier nicht die URL deines Community-Portals. Vielleicht kannst du "
+"deine Login-/Signup-URL verwenden"
+
+#: Modules/Auth/AuthModdule.php:527 app/Views/auth/login_form.php:51
+msgid "Don't have an account?"
+msgstr "Du hast noch kein Konto?"
+
+#: app/Services/TransStrings.php:275
+msgid "Don't have an affiliate account?"
+msgstr "Du hast noch kein Partnerkonto?"
+
+#: app/Services/TransStrings.php:276
+msgid "Draft"
+msgstr "Entwurf"
+
+#: app/Services/TransStrings.php:277
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: app/Services/TransStrings.php:278
+msgid "Earliest"
+msgstr "Früheste"
+
+#: app/Services/TransStrings.php:279
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: app/Services/TransStrings.php:280
+msgid "Edit Article"
+msgstr "Artikel bearbeiten"
+
+#: app/Services/TransStrings.php:281
+msgid "Edit Badge"
+msgstr "Abzeichen bearbeiten"
+
+#: app/Services/TransStrings.php:282
+msgid "Edit Course"
+msgstr "Kurs bearbeiten"
+
+#: app/Services/TransStrings.php:283
+msgid "Edit Feed"
+msgstr "Feed bearbeiten"
+
+#: app/Services/TransStrings.php:284
+msgid "Edit Info"
+msgstr "Infos bearbeiten"
+
+#: app/Services/TransStrings.php:290
+msgid "Edit lesson"
+msgstr "Lektion bearbeiten"
+
+#: app/Services/TransStrings.php:285
+msgid "Edit Lesson Content"
+msgstr "Lektionsinhalt bearbeiten"
+
+#: app/Services/TransStrings.php:286
+msgid "Edit Lessons"
+msgstr "Lektionen bearbeiten"
+
+#: app/Services/TransStrings.php:287
+msgid "Edit Link"
+msgstr "Link bearbeiten"
+
+#: app/Services/TransStrings.php:291
+msgid "Edit media"
+msgstr "Medien bearbeiten"
+
+#: app/Services/TransStrings.php:288
+msgid "Edit Profile"
+msgstr "Profil bearbeiten"
+
+#: app/Services/TransStrings.php:292
+msgid "Edit the field from block editor "
+msgstr "Bearbeite das Feld im Blockeditor"
+
+#: app/Services/TransStrings.php:289
+msgid "Edit Title"
+msgstr "Titel bearbeiten"
+
+#: app/Services/TransStrings.php:293
+msgid "Editing manager role for"
+msgstr "Rolle des Redaktionsleiters für"
+
+#: app/Services/TransStrings.php:294
+#, php-format
+msgid "Editing manager role for %s"
+msgstr "Bearbeitung der Managerrolle für %s"
+
+#: app/Services/TransStrings.php:295
+msgid "Email"
+msgstr "E-Mail"
+
+#: Modules/Auth/AuthHelper.php:157 Modules/Auth/AuthModdule.php:140
+#: app/Views/auth/login_form.php:22
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: app/Services/TransStrings.php:300
+msgid "Email authors when someone replies to their comments."
+msgstr "E-Mail an Autoren, wenn jemand auf ihre Kommentare antwortet."
+
+#: app/Services/TransStrings.php:296
+msgid "Email Disabled"
+msgstr "E-Mail Deaktiviert"
+
+#: app/Services/TransStrings.php:297
+msgid "Email Footer"
+msgstr "E-Mail-Fußzeile"
+
+#: app/Services/TransStrings.php:301
+msgid "Email from name"
+msgstr "E-Mail von Name"
+
+#: Modules/Auth/AuthModdule.php:268
+msgid "Email is already taken"
+msgstr "E-Mail ist bereits vergeben"
+
+#: Modules/Auth/AuthModdule.php:267
+msgid "Email is not valid"
+msgstr "E-Mail ist nicht gültig"
+
+#: Modules/Auth/AuthModdule.php:266 Modules/Auth/AuthModdule.php:422
+#: Modules/Auth/Classes/InvitationService.php:140
+msgid "Email is required"
+msgstr "E-Mail ist erforderlich"
+
+#: app/Services/TransStrings.php:302
+msgid "Email me when someone comments on my post"
+msgstr "E-Mail an mich, wenn jemand meinen Beitrag kommentiert"
+
+#: app/Services/TransStrings.php:303
+msgid "Email me when someone mentions me in a post or comment"
+msgstr ""
+"E-Mail an mich, wenn mich jemand in einem Beitrag oder Kommentar erwähnt"
+
+#: app/Services/TransStrings.php:304
+msgid "Email me when someone replies to my comments"
+msgstr "E-Mail an mich, wenn jemand auf meine Kommentare antwortet"
+
+#: app/Http/Controllers/ProfileController.php:483
+msgid "Email Notification preferences have been updated"
+msgstr "Die Einstellungen für E-Mail-Benachrichtigungen wurden aktualisiert"
+
+#: app/Services/TransStrings.php:298
+msgid "Email Notification Settings"
+msgstr "Einstellungen für E-Mail-Benachrichtigungen"
+
+#: app/Http/Controllers/AdminController.php:154
+msgid "Email notification settings have been updated"
+msgstr "Die Einstellungen für E-Mail-Benachrichtigungen wurden aktualisiert"
+
+#: app/Services/TransStrings.php:306
+msgid "Email on comment reply"
+msgstr "E-Mail auf Kommentar antworten"
+
+#: app/Services/TransStrings.php:307
+msgid "Email on new comment"
+msgstr "E-Mail auf neuen Kommentar"
+
+#: app/Services/TransStrings.php:305
+msgid "Email on Tagging / Mentioning"
+msgstr "E-Mail zum Tagging / Mentioning"
+
+#: app/Services/TransStrings.php:299
+msgid "Email Settings"
+msgstr "E-Mail-Einstellungen"
+
+#: app/Services/TransStrings.php:308
+msgid ""
+"Email will be sent if there are any unread notifications for the user from "
+"the last email sent."
+msgstr ""
+"Eine E-Mail wird verschickt, wenn es seit der letzten gesendeten E-Mail "
+"ungelesene Benachrichtigungen für den/die Nutzer/in gibt."
+
+#: app/Services/TransStrings.php:309
+msgid "Embed"
+msgstr "Einbetten"
+
+#: app/Services/TransStrings.php:310
+msgid "Embed from Vimeo, YouTube, Wistia and more"
+msgstr "Einbetten von Vimeo, YouTube, Wistia und mehr"
+
+#: Modules/FeaturesHandler.php:166
+msgid "Embed Handler"
+msgstr "Handler einbetten"
+
+#: app/Services/TransStrings.php:311
+msgid "Emoji"
+msgstr "Emoji"
+
+#: app/Services/TransStrings.php:312
+msgid "Emoji Module"
+msgstr "Emoji Modul"
+
+#: app/Services/TransStrings.php:313
+msgid "Emoji Settings"
+msgstr "Emoji-Einstellungen"
+
+#: app/Services/TransStrings.php:314
+msgid "Enable Comments"
+msgstr "Kommentare einschalten"
+
+#: app/Services/TransStrings.php:315
+msgid "Enable Course Module"
+msgstr "Kursmodul freigeben"
+
+#: app/Services/TransStrings.php:316
+msgid "Enable Dark Mode"
+msgstr "Dunkler Modus aktivieren"
+
+#: app/Services/TransStrings.php:317
+msgid "Enable Emoji"
+msgstr "Emoji aktivieren"
+
+#: app/Services/TransStrings.php:326
+msgid "Enable for logged in members"
+msgstr "Aktivieren für eingeloggte Mitglieder"
+
+#: app/Services/TransStrings.php:327
+msgid "Enable for logged out members"
+msgstr "Aktivieren für abgemeldete Mitglieder"
+
+#: app/Services/TransStrings.php:318
+msgid "Enable Giphy Module"
+msgstr "Giphy-Modul aktivieren"
+
+#: app/Services/TransStrings.php:319
+msgid "Enable Global Posts Status Form"
+msgstr "Statusformular für globale Beiträge aktivieren"
+
+#: app/Services/TransStrings.php:328
+msgid "Enable group chat for this space members"
+msgstr "Aktiviere den Gruppenchat für die Mitglieder dieses Bereichs"
+
+#: app/Services/TransStrings.php:320
+msgid "Enable Leaderboards Module"
+msgstr "Aktiviere das Modul Leaderboards"
+
+#: app/Services/TransStrings.php:321
+msgid "Enable Sticky Page headers across portal"
+msgstr "Aktiviere Sticky Page Headers im gesamten Portal"
+
+#: app/Services/TransStrings.php:322
+msgid "Enable Sticky Right Sidebar Widgets"
+msgstr "Sticky Widgets für die rechte Seitenleiste aktivieren"
+
+#: app/Services/TransStrings.php:329
+msgid "Enable this link"
+msgstr "Aktiviere diesen Link"
+
+#: app/Services/TransStrings.php:323
+msgid "Enable User Badge Module"
+msgstr "Aktiviere das Benutzerausweis-Modul"
+
+#: app/Services/TransStrings.php:324
+msgid "Enable Video Embed"
+msgstr "Video einbetten aktivieren"
+
+#: app/Services/TransStrings.php:325
+msgid "Enable Weekly Digest Email for community members"
+msgstr "Aktiviere die wöchentliche Übersichts-E-Mail für Community-Mitglieder"
+
+#: app/Services/TransStrings.php:330
+msgid "Enable/disable Post Status"
+msgstr "Poststatus aktivieren/deaktivieren"
+
+#: app/Services/TransStrings.php:331
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: app/Services/TransStrings.php:957
+msgid "enabled"
+msgstr "aktiviert"
+
+#: app/Services/TransStrings.php:332
+msgid ""
+"Enables switching between dark and light interface themes, accommodating "
+"different lighting conditions and user preferences."
+msgstr ""
+"Ermöglicht den Wechsel zwischen dunklen und hellen Oberflächenthemen, um "
+"unterschiedlichen Lichtverhältnissen und Nutzerpräferenzen gerecht zu werden."
+
+#: app/Hooks/Handlers/PortalHandler.php:782
+#, php-format
+msgid "Enroll %s"
+msgstr "Einschreiben %s"
+
+#: app/Services/TransStrings.php:333
+msgid "Enroll this course"
+msgstr "Diesen Kurs starten"
+
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:26
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:35
+msgid "Enrolled in a course"
+msgstr "Für einen Kurs eingeschrieben"
+
+#: app/Services/TransStrings.php:334
+msgid "Enrollment Type"
+msgstr "Art der Einschreibung"
+
+#: app/Services/TransStrings.php:338
+msgid "Enter invitee email"
+msgstr "E-Mail der eingeladenen Person eingeben"
+
+#: app/Services/TransStrings.php:337
+msgid "Enter invitee Name"
+msgstr "Name der eingeladenen Person eingeben"
+
+#: app/Services/TransStrings.php:335
+msgid "Enter Lesson title"
+msgstr "Titel der Lektion eingeben"
+
+#: app/Services/TransStrings.php:336
+msgid "Enter Section title"
+msgstr "Titel des Abschnitts eingeben"
+
+#: app/Services/TransStrings.php:339
+msgid "Error"
+msgstr "Fehler"
+
+#: app/Services/TransStrings.php:340
+msgid "Every Friday"
+msgstr "Jeden Freitag"
+
+#: app/Services/TransStrings.php:341
+msgid "Every Monday"
+msgstr "Jeden Montag"
+
+#: app/Services/TransStrings.php:342
+msgid "Every Saturday"
+msgstr "Jeden Samstag"
+
+#: app/Services/TransStrings.php:343
+msgid "Every Sunday"
+msgstr "Jeden Sonntag"
+
+#: app/Services/TransStrings.php:344
+msgid "Every Thursday"
+msgstr "Jeden Donnerstag"
+
+#: app/Services/TransStrings.php:345
+msgid "Every Tuesday"
+msgstr "Jeden Dienstag"
+
+#: app/Services/TransStrings.php:346
+msgid "Every Wednesday"
+msgstr "Jeden Mittwoch"
+
+#: app/Services/TransStrings.php:347
+msgid "Everybody"
+msgstr "Alle"
+
+#: app/Services/TransStrings.php:348
+msgid "Everyone"
+msgstr "Alle"
+
+#: app/Services/TransStrings.php:349
+msgid "Failed to copy"
+msgstr "Kopieren fehlgeschlagen"
+
+#: app/Services/TransStrings.php:350
+msgid "Failed to copy the link"
+msgstr "Der Link konnte nicht kopiert werden"
+
+#: app/Services/TransStrings.php:351
+msgid "Failed to load the list"
+msgstr "Die Liste konnte nicht geladen werden"
+
+#: app/Services/TransStrings.php:352
+msgid "Featured Image"
+msgstr "Gezeigtes Bild"
+
+#: app/Services/TransStrings.php:353
+msgid "Featured Image (Recommended size: 1600x500) - Optional"
+msgstr "Featured Image (Empfohlene Größe: 1600x500) - Optional"
+
+#: app/Services/TransStrings.php:354
+msgid "Featured Image Preview"
+msgstr "Bildvorschau"
+
+#: app/Services/TransStrings.php:356
+msgid "Featured media"
+msgstr "Ausgewählte Medien"
+
+#: app/Services/TransStrings.php:355
+msgid "Featured Posts"
+msgstr "Ausgewählte Beiträge"
+
+#: app/Services/TransStrings.php:357
+msgid "Features & Addons"
+msgstr "Funktionen & Addons"
+
+#: app/Services/TransStrings.php:358
+msgid "Features Customizations"
+msgstr "Eigenschaften Anpassungen"
+
+#: app/Http/Controllers/SettingController.php:42
+msgid "Features saved successfully."
+msgstr "Merkmale erfolgreich gespeichert."
+
+#: app/Services/TransStrings.php:359
+msgid "Features Settings"
+msgstr "Eigenschaften Einstellungen"
+
+#: app/Services/TransStrings.php:360
+msgid "February"
+msgstr "Februar"
+
+#: app/Services/TransStrings.php:361 app/Services/Helper.php:853
+#: app/Views/portal/main_sidebar.php:56
+msgid "Feed"
+msgstr "Feed"
+
+#: app/Services/TransStrings.php:362
+msgid "Feed Links"
+msgstr "Feed Links"
+
+#: app/Http/Controllers/FeedsController.php:436
+msgid "Feed updated"
+msgstr "Feed aktualisiert"
+
+#: app/Services/TransStrings.php:363
+msgid "Feeds"
+msgstr "Feeds"
+
+#: app/Services/TransStrings.php:364
+msgid "Fetching License Information Please wait."
+msgstr "Lizenzinformationen werden abgerufen Bitte warte."
+
+#. Relative Date Formats.
+#: app/Hooks/Handlers/PortalHandler.php:513
+msgid "few sec"
+msgstr "wenige Sekunden"
+
+#: app/Services/TransStrings.php:365
+msgid "Find the default Login/Registration Urls"
+msgstr "Finde die Standard Login/Registrierungs Urls"
+
+#: app/Services/TransStrings.php:367
+msgid "First choice"
+msgstr "Erste Wahl"
+
+#: app/Services/TransStrings.php:366
+msgid "First Name"
+msgstr "Vorname"
+
+#: app/Http/Controllers/ProfileController.php:146
+msgid "First name is required"
+msgstr "Der Vorname ist erforderlich"
+
+#: app/Http/Controllers/SettingController.php:181
+msgid "Fluent Forms"
+msgstr "Fließende Formulare"
+
+#: app/Http/Controllers/SettingController.php:191
+msgid "Fluent SMTP"
+msgstr "Fließendes SMTP"
+
+#: app/Http/Controllers/SettingController.php:197
+msgid ""
+"Fluent SMTP is the ultimate SMTP and SES plugin for WordPress. Connect with "
+"any SMTP service, including SendGrid, Mailgun, SES, Sendinblue, PepiPost, "
+"Google, Microsoft, and more."
+msgstr ""
+"Fluent SMTP ist das ultimative SMTP- und SES-Plugin für WordPress. Verbinde "
+"dich mit jedem SMTP-Dienst, einschließlich SendGrid, Mailgun, SES, "
+"Sendinblue, PepiPost, Google, Microsoft und mehr."
+
+#: app/Http/Controllers/SettingController.php:201
+msgid "Fluent Support"
+msgstr "Fließende Unterstützung"
+
+#: app/Hooks/Handlers/PortalHandler.php:79
+#: app/Hooks/Handlers/PortalHandler.php:80
+msgid "FluentCommunity"
+msgstr "FluentCommunity"
+
+#. Name of the plugin
+msgid "FluentCommunity - Community & LMS Plugin"
+msgstr "FluentCommunity - Community & LMS Plugin"
+
+#: app/Http/Controllers/SettingController.php:161
+msgid "FluentCommunity Chat"
+msgstr "FluentCommunity Chat"
+
+#: app/Http/Controllers/SettingController.php:167
+msgid ""
+"FluentCommunity Chat is a real-time chat plugin for WordPress. It allows you "
+"to create a chat room for your community members."
+msgstr ""
+"FluentCommunity Chat ist ein Echtzeit-Chat-Plugin für WordPress. Es "
+"ermöglicht dir, einen Chatraum für deine Community-Mitglieder einzurichten."
+
+#: app/Http/Controllers/SettingController.php:171
+msgid "FluentCRM"
+msgstr "FluentCRM"
+
+#: app/Services/TransStrings.php:368
+msgid "Following"
+msgstr "Nach"
+
+#: app/Services/TransStrings.php:369
+msgid "For best UI, keep the colors empty"
+msgstr ""
+"Für eine optimale Benutzeroberfläche solltest du die Farben leer lassen"
+
+#: app/Http/Controllers/ProfileController.php:436
+msgid "Friday"
+msgstr "Freitag"
+
+#: app/Services/TransStrings.php:370
+msgid "From Email"
+msgstr "Von E-Mail"
+
+#: app/Services/TransStrings.php:371
+msgid "From Name"
+msgstr "Von Name"
+
+#: Modules/Auth/AuthHelper.php:147
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+#: Modules/Auth/AuthModdule.php:274
+msgid "Full name is required"
+msgstr "Vollständiger Name ist erforderlich"
+
+#: app/Services/TransStrings.php:372
+msgid "General"
+msgstr "Allgemein"
+
+#: app/Services/TransStrings.php:373
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: app/Services/TransStrings.php:374
+msgid "Get Emoji & Reaction Module"
+msgstr "Emoji & Reaktionsmodul erhalten"
+
+#: app/Services/TransStrings.php:375
+msgid "Get Giphy Module"
+msgstr "Giphy Modul holen"
+
+#: app/Services/TransStrings.php:376
+msgid "Get Leaderboard & Gamification Module"
+msgstr "Hol dir das Leaderboard & Gamification Modul"
+
+#: app/Services/TransStrings.php:377
+msgid "Get Media Module"
+msgstr "Medienmodul holen"
+
+#: app/Services/TransStrings.php:378
+msgid "Get User Badge Module"
+msgstr "Modul Benutzerabzeichen erhalten"
+
+#: app/Services/TransStrings.php:379
+msgid "Giphy API Key"
+msgstr "Giphy API Schlüssel"
+
+#: app/Services/TransStrings.php:380
+msgid "Giphy Module"
+msgstr "Giphy Modul"
+
+#: app/Services/TransStrings.php:381
+msgid "Giphy Module Settings"
+msgstr "Giphy Modul Einstellungen"
+
+#: app/Services/TransStrings.php:382
+msgid "Global Email Notifications"
+msgstr "Globale E-Mail-Benachrichtigungen"
+
+#: app/Services/TransStrings.php:383
+msgid "Global Post Status"
+msgstr "Global Post Status"
+
+#: app/Services/TransStrings.php:384
+msgid "Go Back"
+msgstr "Zurück gehen"
+
+#: app/Services/TransStrings.php:386
+#, php-format
+msgid "Go to %s"
+msgstr "Gehe zu %s"
+
+#: app/Services/TransStrings.php:385
+msgid "Go To All Feeds"
+msgstr "Zu allen Feeds gehen"
+
+#: app/Services/TransStrings.php:389
+msgid "Go to community"
+msgstr "Zur Gemeinde gehen"
+
+#: app/Services/TransStrings.php:390
+msgid "Go to features settings"
+msgstr "Gehe zu den Funktionseinstellungen"
+
+#: app/Services/TransStrings.php:387
+msgid "Go to General Settings."
+msgstr "Gehe zu den allgemeinen Einstellungen."
+
+#: app/Services/TransStrings.php:388
+msgid "Go to Space Home"
+msgstr "Gehe zu Raum Home"
+
+#: app/Services/TransStrings.php:391
+msgid "Got it!"
+msgstr "Ich hab's!"
+
+#: app/Services/TransStrings.php:392
+msgid "Group Chat?"
+msgstr "Gruppenchat?"
+
+#: app/Services/TransStrings.php:393
+msgid "Group Description"
+msgstr "Gruppe Beschreibung"
+
+#: app/Services/TransStrings.php:394
+msgid "Group Slug (no spaces or special characters)"
+msgstr "Gruppenslogan (keine Leer- oder Sonderzeichen)"
+
+#: app/Services/TransStrings.php:395
+msgid "Group Title"
+msgstr "Gruppe Titel"
+
+#: app/Services/TransStrings.php:396
+msgid "Group:"
+msgstr "Gruppe:"
+
+#: app/Services/TransStrings.php:397
+msgid "Have a new license Key?"
+msgstr "Du hast einen neuen Lizenzschlüssel?"
+
+#: app/Services/TransStrings.php:398
+msgid "Heading"
+msgstr "Überschrift"
+
+#: app/Services/TransStrings.php:399
+msgid "Heading Color"
+msgstr "Farbe der Überschrift"
+
+#: Modules/Auth/AuthHelper.php:241
+#, php-format
+msgid "Hello %s,"
+msgstr "Hallo %s,"
+
+#: app/Services/Libs/DailyDigest.php:69
+msgid ""
+"Here are some of the most popular posts and notifications you may have "
+"missed from the last week 🔥."
+msgstr ""
+"Hier sind einige der beliebtesten Beiträge und Benachrichtigungen, die du in "
+"der letzten Woche vielleicht verpasst hast 🔥."
+
+#: app/Services/Libs/DailyDigest.php:117
+#, php-format
+msgid "Hey %1$s, here's your weekly digest from %2$s"
+msgstr "Hey %1$s, hier ist deine wöchentliche Zusammenfassung von %2$s"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:592
+msgid "Hi Space Leader,"
+msgstr "Hi Space Leader,"
+
+#: app/Services/TransStrings.php:400
+msgid "Hide Banner"
+msgstr "Banner ausblenden"
+
+#: app/Services/TransStrings.php:401
+msgid ""
+"Hide Members count from spaces page (when members' page access unavailable)"
+msgstr ""
+"Ausblenden der Mitgliederzahl auf der Raumseite (wenn die Mitgliederseite "
+"nicht verfügbar ist)"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://fluentcommunity.co"
+msgstr "https://fluentcommunity.co"
+
+#: Modules/Auth/AuthHelper.php:186
+msgid "I agree to the terms and conditions"
+msgstr "Ich stimme den Bedingungen und Konditionen zu"
+
+#: app/Services/TransStrings.php:402
+msgid "If allowed, members will be able to hide the banner"
+msgstr "Wenn erlaubt, können die Mitglieder das Banner ausblenden"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:71
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:72
+msgid "If Contact Already Exist?"
+msgstr "Wenn bereits ein Kontakt besteht?"
+
+#: app/Services/TransStrings.php:403
+msgid ""
+"If someone replies to your notification email, this is where you would like "
+"to receive it."
+msgstr ""
+"Wenn jemand auf deine Benachrichtigungs-E-Mail antwortet, möchtest du sie "
+"hier erhalten."
+
+#: app/Services/TransStrings.php:404
+msgid "If unchecked, then the last activity will not be shown."
+msgstr ""
+"Wenn diese Option nicht markiert ist, wird die letzte Aktivität nicht "
+"angezeigt."
+
+#: app/Services/TransStrings.php:405
+msgid "If you add this image, it will be shown on the space homepage"
+msgstr ""
+"Wenn du dieses Bild hinzufügst, wird es auf der Space-Homepage angezeigt"
+
+#: Modules/Auth/AuthHelper.php:258
+msgid "If you did not initiate this request, please ignore this email."
+msgstr ""
+"Wenn du diese Anfrage nicht initiiert hast, ignoriere bitte diese E-Mail."
+
+#: app/Services/TransStrings.php:406
+msgid ""
+"If you enable this, FluentCommunity will use enhanced color contrasts for "
+"different UI"
+msgstr ""
+"Wenn du dies aktivierst, verwendet FluentCommunity verstärkte Farbkontraste "
+"für verschiedene UI"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:88
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:89
+msgid ""
+"If you enable this, it will restart the automation for a contact even if "
+"they are already in the automation. Otherwise, it will skip if the contact "
+"already exists."
+msgstr ""
+"Wenn du dies aktivierst, wird die Automatisierung für einen Kontakt neu "
+"gestartet, auch wenn er bereits in der Automatisierung ist. Andernfalls wird "
+"er übersprungen, wenn der Kontakt bereits existiert."
+
+#: app/Services/TransStrings.php:407
+msgid ""
+"If you enable this, then users can post globally without selecting a space, "
+"which will be available for everyone."
+msgstr ""
+"Wenn du dies aktivierst, können Nutzer/innen global posten, ohne einen "
+"Bereich auszuwählen, der für alle zugänglich ist."
+
+#: app/Views/email/Default/_invitation.php:31
+msgid ""
+"If you think you've received this invitation in error, please ignore this "
+"email."
+msgstr ""
+"Wenn du glaubst, dass du diese Einladung irrtümlich erhalten hast, ignoriere "
+"diese E-Mail bitte."
+
+#: app/Services/TransStrings.php:408
+msgid "If you want to store files in a folder within the bucket."
+msgstr ""
+"Wenn du Dateien in einem Ordner innerhalb des Buckets speichern willst."
+
+#: app/Services/TransStrings.php:409
+msgid "Image"
+msgstr "Bild"
+
+#: app/Services/TransStrings.php:410
+msgid "Image Preview"
+msgstr "Bildvorschau"
+
+#: app/Services/TransStrings.php:411
+msgid "Immediately"
+msgstr "Unmittelbar"
+
+#. Relative Date Formats. Please do not alter %s
+#: app/Hooks/Handlers/PortalHandler.php:481
+#: app/Hooks/Handlers/PortalHandler.php:509
+#: app/Views/email/Default/_user_post_content.php:31
+#, php-format
+msgid "in %s"
+msgstr "in %s"
+
+#: app/Services/TransStrings.php:412
+msgid "In which day, the digest email will be sent"
+msgstr "An welchem Tag wird die Zusammenfassung per E-Mail verschickt?"
+
+#: app/Http/Controllers/SettingController.php:186
+msgid "Install Fluent Forms"
+msgstr "Fluent Forms installieren"
+
+#: app/Http/Controllers/SettingController.php:196
+msgid "Install Fluent SMTP"
+msgstr "Fluent SMTP installieren"
+
+#: app/Http/Controllers/SettingController.php:206
+msgid "Install Fluent Support"
+msgstr "Fluent Unterstützung installieren"
+
+#: app/Http/Controllers/SettingController.php:166
+msgid "Install FluentCommunity Chat"
+msgstr "FluentCommunity Chat installieren"
+
+#: app/Http/Controllers/SettingController.php:176
+msgid "Install FluentCRM"
+msgstr "FluentCRM installieren"
+
+#: app/Services/TransStrings.php:413
+msgid "Installed"
+msgstr "Installiert"
+
+#: Modules/Auth/AuthHelper.php:315
+msgid "Invalid email address. Please try again"
+msgstr "Ungültige E-Mail Adresse. Bitte versuche es erneut"
+
+#: Modules/Auth/Classes/InvitationHandler.php:102
+msgid "Invalid invitation token. Please try again"
+msgstr "Ungültiges Einladungstoken. Bitte versuche es erneut"
+
+#: app/Http/Controllers/CommentsController.php:94
+msgid "Invalid parent comment"
+msgstr "Ungültiger Elternkommentar"
+
+#: app/Services/OnboardingService.php:317
+msgid "Invalid plugin or file mods are disabled."
+msgstr "Ungültige Plugin- oder Datei-Mods sind deaktiviert."
+
+#: app/Services/RemoteUrlParser.php:59
+msgid "Invalid URL"
+msgstr "Ungültige URL"
+
+#: app/Http/Controllers/ProfileController.php:171
+#: app/Http/Controllers/ProfileController.php:204
+msgid "Invalid username. Only Latin characters with _ & - are allowed."
+msgstr ""
+"Ungültiger Benutzername. Nur lateinische Zeichen mit _ & - sind erlaubt."
+
+#: Modules/Auth/AuthHelper.php:319
+msgid "Invalid verification code. Please try again"
+msgstr "Ungültiger Verifizierungscode. Bitte versuche es erneut"
+
+#: Modules/Auth/AuthHelper.php:306
+msgid "Invalid verification token. Please try again"
+msgstr "Ungültiges Verifizierungs-Token. Bitte versuche es erneut"
+
+#: Modules/Auth/Classes/InvitationHandler.php:88
+msgid "Invitation accepted successfully. Please wait..."
+msgstr "Einladung erfolgreich angenommen. Bitte warte..."
+
+#: Modules/Auth/Classes/InvitationController.php:54
+msgid "Invitation deleted successfully"
+msgstr "Einladung erfolgreich gelöscht"
+
+#: Modules/Auth/Classes/InvitationController.php:126
+msgid "Invitation has been resent successfully"
+msgstr "Die Einladung wurde erfolgreich erneut versendet"
+
+#: Modules/Auth/Classes/InvitationController.php:108
+msgid "Invitation has been sent successfully"
+msgstr "Die Einladung wurde erfolgreich versendet"
+
+#: app/Services/TransStrings.php:414
+msgid "Invitation resent successfully"
+msgstr "Einladung erfolgreich zurückgeschickt"
+
+#: app/Services/TransStrings.php:415
+msgid "Invitations"
+msgstr "Einladungen"
+
+#: app/Services/TransStrings.php:416
+msgid "Invite"
+msgstr "Einladen"
+
+#: app/Services/TransStrings.php:417
+msgid "Invite Member"
+msgstr "Mitglied einladen"
+
+#: app/Services/TransStrings.php:418
+msgid "Invited By"
+msgstr "Eingeladen von"
+
+#: app/Services/TransStrings.php:419
+msgid "Invitee"
+msgstr "Eingeladener"
+
+#: app/Services/TransStrings.php:421
+msgid "Invitee email"
+msgstr "E-Mail des Eingeladenen"
+
+#: app/Services/TransStrings.php:420
+msgid "Invitee Name (optional)"
+msgstr "Name des Eingeladenen (optional)"
+
+#. Months short Please keep the serial and format
+#: app/Hooks/Handlers/PortalHandler.php:476
+msgid "Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec"
+msgstr "Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Okt_Nov_Dez"
+
+#: app/Services/TransStrings.php:422
+msgid "January"
+msgstr "Januar"
+
+#. Months Please keep the serial and format
+#: app/Hooks/Handlers/PortalHandler.php:472
+msgid ""
+"January_February_March_April_May_June_July_August_September_October_November_December"
+msgstr ""
+"Januar_Februar_März_April_Mai_Juni_Juli_August_September_Oktober_November_Dezember"
+
+#: app/Services/TransStrings.php:423
+msgid "Join"
+msgstr "Beitreten"
+
+#: Modules/Auth/AuthModdule.php:97 app/Hooks/Handlers/PortalHandler.php:784
+#, php-format
+msgid "Join %s"
+msgstr "Verbinden %s"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:474
+msgid "Join the conversation"
+msgstr "Beteilige dich am Gespräch"
+
+#: app/Services/TransStrings.php:424
+#, php-format
+msgid "Joined %1s"
+msgstr "Beigetreten %1s"
+
+#: app/Services/TransStrings.php:425
+#, php-format
+msgid "Joined %s"
+msgstr "Beigetreten %s"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:25
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:34
+msgid "Joined in a Space"
+msgstr "Raum beigetreten"
+
+#: app/Services/TransStrings.php:426
+#, php-format
+msgid "Joined: %s"
+msgstr "Beigetreten: %s"
+
+#: app/Services/TransStrings.php:427
+msgid "Joining Date"
+msgstr "Beitrittsdatum"
+
+#: app/Services/TransStrings.php:428
+msgid "July"
+msgstr "Juli"
+
+#: app/Services/TransStrings.php:429
+msgid "June"
+msgstr "Juni"
+
+#: app/Services/TransStrings.php:430
+msgid ""
+"Keeps the sidebar visible while scrolling, providing constant access to "
+"important links and widgets."
+msgstr ""
+"Die Seitenleiste bleibt beim Scrollen sichtbar, sodass du immer Zugriff auf "
+"wichtige Links und Widgets hast."
+
+#: app/Services/TransStrings.php:431
+msgid "Last Activity"
+msgstr "Letzte Aktivität"
+
+#: app/Services/TransStrings.php:432
+msgid "Last Name"
+msgstr "Nachname"
+
+#: app/Services/TransStrings.php:433
+#, php-format
+msgid "Last seen %s"
+msgstr "Zuletzt gesehen %s"
+
+#: app/Services/TransStrings.php:434
+#, php-format
+msgid "Last seen: %s"
+msgstr "Zuletzt gesehen: %s"
+
+#: app/Services/TransStrings.php:435
+msgid "Latest"
+msgstr "Neueste"
+
+#: app/Services/TransStrings.php:436
+msgid "Latest Posts"
+msgstr "Neueste Beiträge"
+
+#: app/Services/TransStrings.php:437
+msgid "Layout changed"
+msgstr "Layout geändert"
+
+#: app/Services/TransStrings.php:438 app/Services/Helper.php:899
+msgid "Leaderboard"
+msgstr "Rangliste"
+
+#: app/Services/TransStrings.php:439
+msgid "Leaderboard / Gamification Settings"
+msgstr "Leaderboard / Gamification Einstellungen"
+
+#: app/Services/TransStrings.php:440
+msgid "Leaderboard Levels"
+msgstr "Ranglisten-Levels"
+
+#: app/Services/TransStrings.php:441
+msgid "Leaderboard Points"
+msgstr "Ranglistenpunkte"
+
+#: app/Services/TransStrings.php:442
+msgid "Leaderboard Settings"
+msgstr "Leaderboard-Einstellungen"
+
+#: app/Services/TransStrings.php:443
+msgid "Leaderboards"
+msgstr "Bestenlisten"
+
+#: app/Services/TransStrings.php:444
+msgid "Leaderboards Module"
+msgstr "Leaderboards Modul"
+
+#: app/Services/TransStrings.php:446
+msgid "Leave a reply"
+msgstr "Eine Antwort hinterlassen"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:82
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:83
+msgid "Leave blank to run for all communities"
+msgstr "Leer lassen, um für alle Gemeinden zu kandidieren"
+
+#: app/Services/TransStrings.php:445
+msgid "Leave Space"
+msgstr "Raum verlassen"
+
+#: app/Services/TransStrings.php:447
+#, php-format
+msgid "Lesson %1s of %2s"
+msgstr "Lektion %1s von %2s"
+
+#: app/Services/TransStrings.php:448
+#, php-format
+msgid "Lesson %1s of %2s - %3s"
+msgstr "Lektion %1s von %2s - %3s"
+
+#: app/Services/TransStrings.php:450
+msgid "Lesson discussions"
+msgstr "Diskussionen im Unterricht"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:627
+msgid "Lesson has been created successfully."
+msgstr "Die Lektion wurde erfolgreich erstellt."
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:708
+msgid "Lesson has been deleted successfully."
+msgstr "Die Lektion wurde erfolgreich gelöscht."
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:671
+#: Modules/Course/Http/Controllers/CourseAdminController.php:692
+msgid "Lesson has been updated successfully."
+msgstr "Die Lektion wurde erfolgreich aktualisiert."
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:456
+msgid "Lesson indexes have been updated successfully."
+msgstr "Die Lektionsindizes wurden erfolgreich aktualisiert."
+
+#: app/Services/TransStrings.php:451
+msgid "Lesson name"
+msgstr "Name der Lektion"
+
+#: app/Services/TransStrings.php:449
+msgid "Lesson Title"
+msgstr "Lektion Titel"
+
+#: app/Services/TransStrings.php:452
+msgid "Lessons"
+msgstr "Lektionen"
+
+#: app/Services/TransStrings.php:453
+msgid "Level %d"
+msgstr "Level %d"
+
+#: app/Services/TransStrings.php:454
+msgid "Level Tagline"
+msgstr "Level Tagline"
+
+#: app/Services/TransStrings.php:455
+msgid "Level Title"
+msgstr "Level Titel"
+
+#: app/Services/TransStrings.php:456
+msgid "Levels"
+msgstr "Levels"
+
+#: app/Services/TransStrings.php:457
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: app/Services/TransStrings.php:458
+msgid "Likes"
+msgstr "Gefällt"
+
+#: app/Services/TransStrings.php:459
+msgid "Link"
+msgstr "Link"
+
+#: app/Services/TransStrings.php:460
+msgid "Link copied to clipboard"
+msgstr "Link in die Zwischenablage kopiert"
+
+#: app/Http/Controllers/SettingController.php:63
+msgid "Links"
+msgstr "Links"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:765
+msgid "Links have been updated for the course"
+msgstr "Die Links wurden für den Kurs aktualisiert"
+
+#: app/Http/Controllers/SpaceController.php:607
+msgid "Links have been updated for the space"
+msgstr "Die Links wurden für den Raum aktualisiert"
+
+#: app/Http/Controllers/FeedsController.php:458
+msgid "Links have been updated."
+msgstr "Die Links wurden aktualisiert."
+
+#: app/Services/TransStrings.php:461
+msgid "List"
+msgstr "Liste"
+
+#: app/Services/TransStrings.php:462
+msgid "Load more"
+msgstr "Mehr laden"
+
+#: app/Services/TransStrings.php:463
+msgid "Loading....."
+msgstr "Loading....."
+
+#: app/Services/TransStrings.php:464
+msgid "Local"
+msgstr "Lokales"
+
+#: app/Services/TransStrings.php:465
+msgid "Lock Screen"
+msgstr "Sperrbildschirm"
+
+#: app/Services/TransStrings.php:466
+msgid "Lock Screen Type"
+msgstr "Sperrbildschirm Typ"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:723
+msgid "Lockscreen settings have been updated successfully."
+msgstr ""
+"Die Einstellungen für den Sperrbildschirm wurden erfolgreich aktualisiert."
+
+#: Modules/Auth/AuthModdule.php:550
+msgid "Log In & Accept Invitation"
+msgstr "Einloggen & Einladung annehmen"
+
+#: app/Services/TransStrings.php:467
+msgid "Logged in"
+msgstr "Eingeloggt"
+
+#: app/Services/TransStrings.php:468
+msgid "Logged out"
+msgstr "Ausgeloggt"
+
+#: app/Services/TransStrings.php:469 Modules/Auth/AuthModdule.php:99
+#: app/Hooks/Handlers/PortalHandler.php:290 app/Views/auth/login_form.php:42
+#: app/Views/auth/user_invitation.php:36
+msgid "Login"
+msgstr "Anmeldung"
+
+#: app/Services/TransStrings.php:470
+msgid "Login / Registration URLs"
+msgstr "Anmeldung / Registrierung URLs"
+
+#: app/Services/TransStrings.php:471
+msgid "Login / Signup"
+msgstr "Anmeldung / Registrierung"
+
+#: app/Services/TransStrings.php:473
+msgid "Login or Signup"
+msgstr "Anmelden oder Registrieren"
+
+#: Modules/Auth/AuthModdule.php:98
+msgid "Login or Signup to join the community"
+msgstr "Anmelden oder registrieren, um der Community beizutreten"
+
+#: Modules/Auth/AuthModdule.php:494
+#, php-format
+msgid "Login to %s"
+msgstr "Anmeldung bei %s"
+
+#: app/Services/TransStrings.php:474
+msgid "Login to enroll this course"
+msgstr "Einloggen, um diesen Kurs einzuschreiben"
+
+#: app/Services/TransStrings.php:472
+msgid "Login URL for public Users"
+msgstr "Login URL für öffentliche Benutzer"
+
+#: app/Services/TransStrings.php:475
+msgid "Login/Signup Form Type"
+msgstr "Anmeldung/Anmeldungsformular Typ"
+
+#: app/Services/TransStrings.php:476
+msgid "Logo"
+msgstr "Logo"
+
+#: app/Services/Helper.php:960
+msgid "Logout"
+msgstr "Abmelden"
+
+#: app/Services/TransStrings.php:477
+msgid "Looks like your license has expired."
+msgstr "Sieht aus, als ob deine Lizenz abgelaufen ist."
+
+#: Modules/Auth/AuthModdule.php:535 app/Views/auth/login_form.php:59
+msgid "Lost your password?"
+msgstr "Hast du dein Passwort vergessen?"
+
+#: app/Services/TransStrings.php:478
+msgid "Mailing Settings"
+msgstr "Mailing-Einstellungen"
+
+#: app/Services/TransStrings.php:479
+msgid "Manage"
+msgstr "Verwalte"
+
+#: app/Services/TransStrings.php:483
+msgid "Manage all topics."
+msgstr "Verwalte alle Themen."
+
+#: app/Services/TransStrings.php:480
+msgid "Manage Courses"
+msgstr "Kurse verwalten"
+
+#: app/Services/TransStrings.php:481
+msgid "Manage Links"
+msgstr "Links verwalten"
+
+#: app/Services/TransStrings.php:482
+msgid "Manage Topics"
+msgstr "Themen verwalten"
+
+#: app/Services/TransStrings.php:484
+msgid "Managers"
+msgstr "Manager"
+
+#: app/Services/TransStrings.php:485
+msgid "March"
+msgstr "März"
+
+#: app/Services/TransStrings.php:486
+msgid "Mark all as read"
+msgstr "Alle als gelesen markieren"
+
+#: app/Services/TransStrings.php:487
+msgid "Mark this account as verified"
+msgstr "Markiere dieses Konto als verifiziert"
+
+#: app/Services/TransStrings.php:488
+msgid "Maximum Number of Topics a space may have"
+msgstr "Maximale Anzahl von Themen, die ein Raum haben kann"
+
+#: app/Services/TransStrings.php:489
+msgid "Maximum Number of Topics a user can select when creating a post"
+msgstr ""
+"Maximale Anzahl von Themen, die ein Benutzer beim Erstellen eines Beitrags "
+"auswählen kann"
+
+#: app/Services/TransStrings.php:490
+msgid "May"
+msgstr "Mai"
+
+#: app/Services/TransStrings.php:493
+msgid "Media image"
+msgstr "Medienbild"
+
+#: app/Services/TransStrings.php:491
+msgid "Media Module"
+msgstr "Medienmodul"
+
+#: app/Services/TransStrings.php:492
+msgid "Media Preview image"
+msgstr "Medien Vorschaubild"
+
+#: app/Http/Controllers/FeedsController.php:560
+msgid "Media preview image has been removed successfully."
+msgstr "Das Medienvorschaubild wurde erfolgreich entfernt."
+
+#: app/Services/TransStrings.php:494
+msgid "Media type"
+msgstr "Medientyp"
+
+#: app/Services/TransStrings.php:495
+msgid "Member"
+msgstr "Mitglied"
+
+#: app/Http/Controllers/MembersController.php:138
+msgid "Member status have been updated"
+msgstr "Der Mitgliederstatus wurde aktualisiert"
+
+#: app/Services/TransStrings.php:496 app/Services/Helper.php:884
+msgid "Members"
+msgstr "Mitglieder"
+
+#: app/Services/TransStrings.php:498
+msgid "Members can enable/disable their own digest status"
+msgstr ""
+"Mitglieder können ihren eigenen Übersichtsstatus aktivieren/deaktivieren"
+
+#: app/Services/TransStrings.php:499
+msgid "Members have to be invited to this course."
+msgstr "Die Mitglieder müssen zu diesem Kurs eingeladen werden."
+
+#: app/Services/TransStrings.php:500
+msgid "Members have to be invited to this space."
+msgstr "Die Mitglieder müssen zu diesem Raum eingeladen werden."
+
+#: app/Services/TransStrings.php:497
+msgid "Members Only"
+msgstr "Nur für Mitglieder"
+
+#: app/Services/TransStrings.php:501
+msgid "Membership Request Under Review"
+msgstr "Antrag auf Mitgliedschaft wird geprüft"
+
+#: app/Services/TransStrings.php:502
+msgid "Membership Role"
+msgstr "Rolle der Mitgliedschaft"
+
+#: app/Services/TransStrings.php:503
+msgid "Mention all members?"
+msgstr "Alle Mitglieder erwähnen?"
+
+#: app/Services/TransStrings.php:504
+msgid "Mentions"
+msgstr "Erwähnt"
+
+#: app/Services/TransStrings.php:505
+msgid "Menu Group"
+msgstr "Menü Gruppe"
+
+#: app/Services/TransStrings.php:506
+msgid "Menu Settings"
+msgstr "Menü Einstellungen"
+
+#: app/Http/Controllers/SettingController.php:119
+msgid "Menu settings saved successfully."
+msgstr "Die Menüeinstellungen wurden erfolgreich gespeichert."
+
+#: app/Services/TransStrings.php:507
+msgid "Message"
+msgstr "Nachricht"
+
+#: app/Services/TransStrings.php:508
+msgid "Message to show for users without matching roles."
+msgstr "Nachricht, die für Benutzer ohne passende Rollen angezeigt wird."
+
+#: app/Services/TransStrings.php:958
+msgid "min"
+msgstr "min"
+
+#: app/Services/TransStrings.php:509
+msgid "Minimum Points"
+msgstr "Mindestpunkte"
+
+#: app/Services/TransStrings.php:510
+msgid "Moderator"
+msgstr "Moderator"
+
+#: app/Services/TransStrings.php:511
+msgid "Moderator Settings"
+msgstr "Moderator Einstellungen"
+
+#: app/Services/TransStrings.php:512
+msgid "Modern"
+msgstr "Modern"
+
+#: app/Http/Controllers/ProfileController.php:432
+msgid "Monday"
+msgstr "Montag"
+
+#: app/Services/TransStrings.php:513
+msgid "Month"
+msgstr "Monat"
+
+#: app/Services/TransStrings.php:514
+msgid "Most Replied"
+msgstr "Meist geantwortet"
+
+#: app/Services/TransStrings.php:515
+msgid "Move Space"
+msgstr "Raum bewegen"
+
+#: app/Services/TransStrings.php:516
+msgid "My Courses"
+msgstr "Meine Kurse"
+
+#: app/Services/TransStrings.php:517
+msgid "My Profile"
+msgstr "Mein Profil"
+
+#: app/Services/Helper.php:942
+msgid "My Spaces"
+msgstr "Meine Räume"
+
+#: app/Services/TransStrings.php:959
+msgid "n/a"
+msgstr "k.A"
+
+#: app/Services/TransStrings.php:518
+msgid "Name"
+msgstr "Name"
+
+#: app/Services/TransStrings.php:519
+msgid "Name of the Link"
+msgstr "Name des Links"
+
+#: app/Services/TransStrings.php:520
+msgid "Name that will be used for replyTo attribute"
+msgstr "Name, der für das replyTo-Attribut verwendet werden soll"
+
+#: app/Services/TransStrings.php:521
+msgid "Name that will be used to send emails"
+msgstr "Name, der für den Versand von E-Mails verwendet wird"
+
+#: app/Services/TransStrings.php:522
+msgid "New"
+msgstr "Neu"
+
+#: app/Services/TransStrings.php:523
+msgid "New Activity"
+msgstr "Neue Aktivität"
+
+#: app/Services/TransStrings.php:524
+msgid "New Article"
+msgstr "Neuer Artikel"
+
+#. %1$s is the feed title and %2$s is the comment author name
+#: app/Models/Comment.php:176
+#, php-format
+msgid "New comment on %1$s - %2$s"
+msgstr "Neuer Kommentar zu %1$s - %2$s"
+
+#. %1$s is the post title and %2$s is the comment author name
+#: app/Models/Comment.php:179
+#, php-format
+msgid "New comment on a post on %1$s - %2$s"
+msgstr "Neuer Kommentar zu einem Beitrag auf %1$s - %2$s"
+
+#: app/Services/TransStrings.php:525
+msgid "New Course"
+msgstr "Neuer Kurs"
+
+#. %1$s is the author name and %2$s is the post excerpt (max 30 chars)
+#: app/Hooks/Handlers/EmailNotificationHandler.php:129
+#, php-format
+msgid "New Post By %1$s: %2$s"
+msgstr "Neuer Beitrag von %1$s: %2$s"
+
+#: app/Services/TransStrings.php:526
+msgid "New Posts Notifications"
+msgstr "Benachrichtigungen über neue Beiträge"
+
+#. %1$s is the post title and %2$s is the comment author name
+#: app/Models/Comment.php:171
+#, php-format
+msgid "New reply of a comment in a post on %1$s - %2$s"
+msgstr "Neue Antwort auf einen Kommentar in einem Beitrag zu %1$s - %2$s"
+
+#. %1$s is the feed title and %2$s is the comment author name
+#: app/Models/Comment.php:168
+#, php-format
+msgid "New reply on comment at %1$s - %2$s"
+msgstr "Neue Antwort auf Kommentar bei %1$s - %2$s"
+
+#: app/Services/TransStrings.php:527
+msgid "New Space"
+msgstr "Neuer Raum"
+
+#: app/Services/TransStrings.php:528
+msgid "New Topic"
+msgstr "Neues Thema"
+
+#: app/Services/TransStrings.php:529
+msgid "Next"
+msgstr "Nächste"
+
+#: app/Services/TransStrings.php:530
+msgid "No"
+msgstr "Nein"
+
+#: app/Services/TransStrings.php:531
+#, php-format
+msgid "No %s members found in this community."
+msgstr "Keine %s-Mitglieder in dieser Community gefunden."
+
+#: app/Services/TransStrings.php:533
+msgid "No badges have been configured."
+msgstr "Es wurden keine Abzeichen konfiguriert."
+
+#: app/Services/TransStrings.php:534
+msgid ""
+"No comments from any lessons yet! Comments from all lessons will be shown "
+"here."
+msgstr ""
+"Noch keine Kommentare zu den Lektionen! Die Kommentare zu allen Lektionen "
+"werden hier angezeigt."
+
+#: app/Services/TransStrings.php:535
+msgid "No digest email will be sent."
+msgstr "Es wird keine Übersichts-E-Mail verschickt."
+
+#: app/Http/Controllers/CommentsController.php:78
+msgid "No duplicate comment please!"
+msgstr "Bitte keine doppelten Kommentare!"
+
+#: app/Services/TransStrings.php:536
+msgid "No email will be sent for comments on your post."
+msgstr "Für Kommentare zu deinem Beitrag wird keine E-Mail verschickt."
+
+#: app/Services/TransStrings.php:537
+msgid "No email will be sent when someone replies to your comments."
+msgstr ""
+"Es wird keine E-Mail verschickt, wenn jemand auf deinen Kommentar antwortet."
+
+#: app/Services/TransStrings.php:538
+msgid "No emails will be sent when someone mentions you."
+msgstr "Es werden keine E-Mails verschickt, wenn jemand dich erwähnt."
+
+#: app/Services/TransStrings.php:539
+msgid "No existing users found based on your search."
+msgstr "Bei deiner Suche wurden keine vorhandenen Benutzer gefunden."
+
+#: app/Services/TransStrings.php:540
+msgid "No link has been added for this section"
+msgstr "Es wurde kein Link für diesen Abschnitt hinzugefügt"
+
+#: app/Services/TransStrings.php:541
+msgid "No members found"
+msgstr "Keine Mitglieder gefunden"
+
+#: app/Services/TransStrings.php:542
+msgid "No name"
+msgstr "Kein Name"
+
+#: app/Services/TransStrings.php:543
+msgid "No notifications found"
+msgstr "Keine Benachrichtigungen gefunden"
+
+#: app/Services/TransStrings.php:544
+msgid "No posts found for the selected topic"
+msgstr "Keine Beiträge für das ausgewählte Thema gefunden"
+
+#: app/Services/TransStrings.php:545
+msgid "No posts found!"
+msgstr "Keine Beiträge gefunden!"
+
+#: app/Services/TransStrings.php:546
+msgid "No recent activities found"
+msgstr "Keine neuen Aktivitäten gefunden"
+
+#: app/Services/TransStrings.php:547
+msgid "No results"
+msgstr "Keine Ergebnisse"
+
+#: app/Services/TransStrings.php:548
+msgid "No results found based on your search criteria"
+msgstr "Keine Ergebnisse zu deinen Suchkriterien gefunden"
+
+#: app/Services/TransStrings.php:549
+msgid "No results found. Please search by username"
+msgstr "Keine Ergebnisse gefunden. Bitte suche nach Benutzernamen"
+
+#: Modules/Auth/AuthHelper.php:165
+msgid "No space or special characters"
+msgstr "Keine Leer- oder Sonderzeichen"
+
+#: app/Services/TransStrings.php:532
+msgid "No Spaces found."
+msgstr "Keine Räume gefunden."
+
+#: app/Services/TransStrings.php:550
+msgid "No unread notifications found"
+msgstr "Keine ungelesenen Benachrichtigungen gefunden"
+
+#: app/Services/TransStrings.php:551
+msgid "No voters yet"
+msgstr "Noch keine Wähler"
+
+#: app/Services/TransStrings.php:552
+msgid "Not Matched User Roles"
+msgstr "Nicht übereinstimmende Benutzerrollen"
+
+#: app/Services/TransStrings.php:553
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+#: app/Services/TransStrings.php:554
+msgid "Notification Settings"
+msgstr "Benachrichtigseinstellungen"
+
+#: app/Services/TransStrings.php:555
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: app/Services/TransStrings.php:556
+msgid "Notify for all posts"
+msgstr "Für alle Beiträge benachrichtigen"
+
+#: app/Services/TransStrings.php:557
+msgid "Notify only for Admin Posts"
+msgstr "Nur für Admin Posts benachrichtigen"
+
+#: app/Services/TransStrings.php:558
+msgid "November"
+msgstr "November"
+
+#: app/Services/TransStrings.php:560
+msgid "October"
+msgstr "Oktober"
+
+#: app/Services/TransStrings.php:561
+msgid "Oembed"
+msgstr "Oembed"
+
+#: app/Services/TransStrings.php:559
+msgid "OK"
+msgstr "OK"
+
+#: app/Services/TransStrings.php:562
+msgid "Oldest"
+msgstr "Älteste"
+
+#: app/Services/TransStrings.php:563
+msgid "On my profile"
+msgstr "Auf meinem Profil"
+
+#: app/Services/TransStrings.php:564
+msgid "Onboarding Settings"
+msgstr "Onboarding-Einstellungen"
+
+#: app/Http/Controllers/AdminController.php:385
+msgid "Onboarding settings have been updated."
+msgstr "Die Onboarding-Einstellungen wurden aktualisiert."
+
+#: app/Services/TransStrings.php:568
+msgid "Only admin or moderators can create post"
+msgstr "Nur Administratoren oder Moderatoren können Beiträge erstellen"
+
+#: app/Services/TransStrings.php:565
+msgid "Only Admin/Moderators"
+msgstr "Nur Admin/Moderatoren"
+
+#: app/Services/TransStrings.php:569
+msgid "Only admins and moderators can select this topic"
+msgstr "Nur Administratoren und Moderatoren können dieses Thema auswählen"
+
+#: app/Services/TransStrings.php:942
+msgid "Only invited members can see who's in the space and what they post."
+msgstr ""
+"Nur eingeladene Mitglieder können sehen, wer in dem Bereich ist und was sie "
+"posten."
+
+#: app/Services/TransStrings.php:570
+msgid "Only invited members can view and post."
+msgstr "Nur eingeladene Mitglieder können Beiträge sehen und schreiben."
+
+#: app/Services/TransStrings.php:571
+msgid "Only invited students can view and enroll the course content."
+msgstr ""
+"Nur eingeladene Schüler können die Kursinhalte sehen und sich einschreiben."
+
+#: app/Services/TransStrings.php:566
+msgid "Only Logged In Users"
+msgstr "Nur eingeloggte Benutzer"
+
+#: app/Services/TransStrings.php:572
+msgid "Only logged-in members"
+msgstr "Nur eingeloggte Mitglieder"
+
+#: app/Services/TransStrings.php:938
+msgid ""
+"Only members added by you or through automation can access the course. They "
+"can enroll by paying a fee."
+msgstr ""
+"Nur von dir oder durch Automatisierung hinzugefügte Mitglieder können auf "
+"den Kurs zugreifen. Sie können sich einschreiben, indem sie eine Gebühr "
+"bezahlen."
+
+#: app/Services/TransStrings.php:940
+msgid "Only members can see who's in the space and what they post."
+msgstr ""
+"Nur Mitglieder können sehen, wer in dem Bereich ist und was sie posten."
+
+#: app/Services/TransStrings.php:567
+msgid "Only Selected User Roles"
+msgstr "Nur ausgewählte Benutzerrollen"
+
+#: app/Services/TransStrings.php:573
+msgid "Open in new tab"
+msgstr "In neuem Tab öffnen"
+
+#: app/Services/TransStrings.php:574
+msgid "Open this link in a new tab."
+msgstr "Öffne diesen Link in einem neuen Tab."
+
+#: app/Services/TransStrings.php:575
+msgid "Optional"
+msgstr "Optional"
+
+#: app/Services/TransStrings.php:577
+msgid "Optional email"
+msgstr "Optionale E-Mail"
+
+#: app/Services/TransStrings.php:576
+msgid "Optional Reply to email"
+msgstr "Optionale Antwort auf E-Mail"
+
+#: app/Services/TransStrings.php:960
+msgid "or"
+msgstr "oder"
+
+#: app/Services/TransStrings.php:578
+msgid "Overlay Color"
+msgstr "Overlay Farbe"
+
+#: app/Services/TransStrings.php:579
+msgid "Overview"
+msgstr "Übersicht"
+
+#: app/Services/TransStrings.php:580
+msgid "Page Blocks"
+msgstr "Seitenblöcke"
+
+#: Modules/Auth/AuthHelper.php:172 Modules/Auth/AuthModdule.php:141
+#: app/Views/auth/login_form.php:32
+msgid "Password"
+msgstr "Passwort"
+
+#: Modules/Auth/AuthModdule.php:270 Modules/Auth/AuthModdule.php:272
+msgid "Password and confirmation password do not match"
+msgstr "Passwort und Bestätigungspasswort stimmen nicht überein"
+
+#: Modules/Auth/AuthHelper.php:179
+msgid "Password Confirmation"
+msgstr "Passwort-Bestätigung"
+
+#: Modules/Auth/AuthModdule.php:271
+msgid "Password confirmation is required"
+msgstr "Passwortbestätigung ist erforderlich"
+
+#: Modules/Auth/AuthModdule.php:269 Modules/Auth/AuthModdule.php:423
+msgid "Password is required"
+msgstr "Passwort ist erforderlich"
+
+#: app/Services/TransStrings.php:581
+msgid "Paste a URL to embed"
+msgstr "Einfügen einer URL zum Einbetten"
+
+#: app/Services/TransStrings.php:582
+msgid "Paste an iframe code"
+msgstr "Einen iframe-Code einfügen"
+
+#: app/Services/TransStrings.php:583
+msgid "Paste your SVG here"
+msgstr "Füge deine SVG hier ein"
+
+#: app/Services/TransStrings.php:584
+msgid "Pending"
+msgstr "Anhängig"
+
+#: app/Services/TransStrings.php:585
+msgid "Pending Members"
+msgstr "Anhängige Mitglieder"
+
+#: app/Services/TransStrings.php:586
+msgid "Permission Denied"
+msgstr "Erlaubnis verweigert"
+
+#: app/Services/TransStrings.php:588
+msgid "Pin to sidebar"
+msgstr "An die Seitenleiste heften"
+
+#: app/Services/TransStrings.php:587
+msgid "Pin to Top"
+msgstr "Pin nach oben"
+
+#: app/Services/TransStrings.php:589
+msgid "Pinned to sidebar"
+msgstr "An die Seitenleiste gepinnt"
+
+#: app/Services/TransStrings.php:591
+msgid "Placeholder image"
+msgstr "Platzhalterbild"
+
+#: app/Services/TransStrings.php:590
+msgid "Placeholder Photo"
+msgstr "Platzhalter Foto"
+
+#: app/Services/TransStrings.php:594
+msgid ""
+"Please choose a username matching with your first/last name or full name"
+msgstr ""
+"Bitte wähle einen Benutzernamen, der mit deinem Vor- und Nachnamen oder "
+"deinem vollständigen Namen übereinstimmt"
+
+#: app/Services/TransStrings.php:595
+msgid "Please enter an email address"
+msgstr "Bitte gib eine E-Mail Adresse ein"
+
+#: Modules/Auth/AuthModdule.php:428
+msgid "Please fill all the required fields correctly"
+msgstr "Bitte fülle alle erforderlichen Felder korrekt aus"
+
+#: Modules/Auth/AuthModdule.php:279
+msgid "Please fill in all required fields correctly."
+msgstr "Bitte fülle alle erforderlichen Felder korrekt aus."
+
+#: app/Http/Controllers/MembersController.php:35
+msgid "Please join the space first to view the members"
+msgstr "Bitte trete zuerst dem Raum bei, um die Mitglieder zu sehen"
+
+#: app/Services/TransStrings.php:596
+msgid "Please join the Space to post a comment."
+msgstr "Bitte melde dich im Space an und schreibe einen Kommentar."
+
+#: app/Services/TransStrings.php:597
+msgid "Please login"
+msgstr "Bitte anmelden"
+
+#: app/Services/TransStrings.php:598
+msgid "Please login to access this page."
+msgstr "Bitte melde dich an, um auf diese Seite zuzugreifen."
+
+#: app/Services/TransStrings.php:599
+msgid "Please login to reply to this post"
+msgstr "Bitte logge dich ein, um auf diesen Beitrag zu antworten"
+
+#: app/Services/TransStrings.php:600
+msgid "Please login to view your bookmarks"
+msgstr "Bitte melde dich an, um deine Lesezeichen zu sehen"
+
+#: app/Services/TransStrings.php:601
+msgid "Please login/signup to enroll this course"
+msgstr ""
+"Bitte logge dich ein/registriere dich, um dich für diesen Kurs anzumelden"
+
+#: app/Services/TransStrings.php:602
+msgid "Please login/signup to join this community"
+msgstr "Bitte melde dich an/registriere dich, um dieser Community beizutreten"
+
+#: app/Services/TransStrings.php:603
+msgid "Please provide a license key"
+msgstr "Bitte gib einen Lizenzschlüssel an"
+
+#: app/Services/TransStrings.php:592
+msgid "Please Provide a license key of"
+msgstr "Bitte geben Sie einen Lizenzschlüssel von"
+
+#: Modules/Auth/AuthModdule.php:228
+msgid "Please provide a valid username"
+msgstr "Bitte gib einen gültigen Benutzernamen an"
+
+#: app/Services/TransStrings.php:604
+msgid "Please provide your custom Authentication Url"
+msgstr "Bitte gib deine eigene Authentifizierungsurl an"
+
+#: app/Http/Controllers/CommentsController.php:267
+msgid "Please provide your reply text"
+msgstr "Bitte gib deinen Antworttext ein"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:594
+msgid "Please review the request in the portal"
+msgstr "Bitte überprüfe die Anfrage im Portal"
+
+#: app/Http/Controllers/SpaceController.php:59
+msgid "Please select a menu group"
+msgstr "Bitte wähle eine Menügruppe"
+
+#: app/Services/TransStrings.php:605
+msgid "Please select a space to post in."
+msgstr "Bitte wähle einen Bereich aus, in dem du posten möchtest."
+
+#: app/Services/TransStrings.php:606
+msgid "Please select a user and role"
+msgstr "Bitte wähle einen Benutzer und eine Rolle"
+
+#: app/Services/TransStrings.php:607
+msgid "Please select a valid date and time"
+msgstr "Bitte wähle ein gültiges Datum und eine Uhrzeit"
+
+#: app/Http/Controllers/FeedsController.php:512
+#: app/Http/Controllers/FeedsController.php:521
+msgid "Please select a valid space to post in"
+msgstr "Bitte wähle ein gültiges Feld aus, in dem du posten möchtest"
+
+#: app/Http/Controllers/FeedsController.php:249
+msgid "Please select a valid space to post in."
+msgstr "Bitte wähle einen gültigen Bereich aus, in dem du posten möchtest."
+
+#: app/Services/TransStrings.php:608
+msgid "Please send a join request and an admin will review your join request."
+msgstr ""
+"Bitte sende eine Beitrittsanfrage und ein Admin wird deine Beitrittsanfrage "
+"prüfen."
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:72
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:73
+msgid ""
+"Please specify what will happen if the subscriber already exists in the "
+"database"
+msgstr ""
+"Bitte gib an, was passieren soll, wenn der Teilnehmer bereits in der "
+"Datenbank existiert"
+
+#: app/Services/TransStrings.php:593
+#, php-format
+msgid ""
+"Please Type %s to confirm. Please note, all the lessons, topics, students "
+"progress will be deleted."
+msgstr ""
+"Bitte gib zur Bestätigung %s ein. Bitte beachte, dass alle Lektionen, Themen "
+"und Fortschritte der Schüler gelöscht werden."
+
+#: app/Http/Controllers/ProfileController.php:223
+msgid "Please use another username. This username is reserved"
+msgstr ""
+"Bitte benutze einen anderen Benutzernamen. Dieser Benutzername ist reserviert"
+
+#: app/Services/TransStrings.php:609
+msgid "Please write a reply first"
+msgstr "Bitte schreibe zuerst eine Antwort"
+
+#: app/Http/Controllers/SettingController.php:255
+msgid "Plugin has been installed Successfully"
+msgstr "Das Plugin wurde erfolgreich installiert"
+
+#: app/Services/TransStrings.php:610
+msgid "Poll Options"
+msgstr "Umfrageoptionen"
+
+#: app/Services/TransStrings.php:611
+msgid "Poll Settings"
+msgstr "Umfrage-Einstellungen"
+
+#: app/Services/TransStrings.php:612
+msgid "Popular"
+msgstr "Beliebt"
+
+#: app/Services/TransStrings.php:613
+msgid "Portal Access Settings"
+msgstr "Einstellungen für den Portalzugang"
+
+#: app/Services/TransStrings.php:614
+#: app/Hooks/Handlers/PortalSettingsHandler.php:40
+msgid "Portal Settings"
+msgstr "Portal Einstellungen"
+
+#: app/Services/TransStrings.php:615
+msgid "Post"
+msgstr "Beitrag"
+
+#: app/Services/FeedsHelper.php:391
+msgid "Post message is too long"
+msgstr "Der Beitrag ist zu lang"
+
+#: app/Services/TransStrings.php:616
+msgid "Post Not Found"
+msgstr "Beitrag nicht gefunden"
+
+#: app/Services/TransStrings.php:617
+msgid "Post Title Requirements"
+msgstr "Anforderungen an den Titel der Stelle"
+
+#: app/Services/TransStrings.php:618
+#, php-format
+msgid "Posted in %s"
+msgstr "Veröffentlicht in %s"
+
+#: app/Services/TransStrings.php:619
+msgid "Posting in:"
+msgstr "Buchen in:"
+
+#: app/Services/TransStrings.php:620
+msgid "Posts"
+msgstr "Beiträge"
+
+#: app/Services/TransStrings.php:621
+msgid "Preview"
+msgstr "Vorschau"
+
+#: app/Services/TransStrings.php:622
+msgid "Primary"
+msgstr "Primäre"
+
+#: app/Services/TransStrings.php:623
+msgid "Primary Menu Items"
+msgstr "Primäre Menüpunkte"
+
+#: app/Services/TransStrings.php:624
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: app/Services/TransStrings.php:625
+msgid "Privacy Settings"
+msgstr "Datenschutz-Einstellungen"
+
+#: app/Http/Controllers/SettingController.php:429
+msgid "Privacy settings have been saved successfully."
+msgstr "Die Datenschutzeinstellungen wurden erfolgreich gespeichert."
+
+#: app/Services/TransStrings.php:626
+msgid "Private"
+msgstr "Privat"
+
+#: app/Http/Controllers/ProfileController.php:241
+msgid "Profile bio should not exceed %d characters."
+msgstr "Die Profil-Bio sollte nicht länger als %d Zeichen sein."
+
+#: app/Services/TransStrings.php:627
+msgid "Profile Dropdown Items"
+msgstr "Profil Dropdown-Elemente"
+
+#: app/Http/Controllers/ProfileController.php:269
+#: app/Http/Controllers/ProfileController.php:276
+msgid "Profile has been updated"
+msgstr "Das Profil wurde aktualisiert"
+
+#: app/Http/Controllers/ProfileController.php:123
+msgid "Profile updated"
+msgstr "Profil aktualisiert"
+
+#: app/Services/TransStrings.php:628
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: app/Services/TransStrings.php:629
+msgid ""
+"Provide Valid Email Address email as per your domain/SMTP settings. This "
+"email will be used to send emails like notifications"
+msgstr ""
+"Gib eine gültige E-Mail-Adresse gemäß deiner Domain/SMTP-Einstellungen an. "
+"Diese E-Mail wird für den Versand von E-Mails wie Benachrichtigungen "
+"verwendet"
+
+#: app/Services/TransStrings.php:630
+msgid "Public"
+msgstr "Öffentlich"
+
+#: app/Services/TransStrings.php:631
+msgid "Public Name of the item"
+msgstr "Öffentlicher Name des Artikels"
+
+#: app/Services/TransStrings.php:632
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: app/Services/TransStrings.php:633
+msgid "Purchase one here"
+msgstr "Kaufe eine hier"
+
+#: Modules/Auth/AuthHelper.php:180
+msgid "Re-type Account Password"
+msgstr "Kontopasswort erneut eingeben"
+
+#: app/Services/TransStrings.php:634
+msgid "Reacted Users"
+msgstr "Reagierte Benutzer"
+
+#: app/Services/TransStrings.php:635
+msgid "Recent Activities"
+msgstr "Neueste Aktivitäten"
+
+#: app/Services/TransStrings.php:636
+msgid "Recent Space Activities"
+msgstr "Neueste Aktivitäten im Raum"
+
+#: app/Services/TransStrings.php:639
+msgid "Recommended dimensions: 480 x 120, 4:1 aspect ratio."
+msgstr "Empfohlene Abmessungen: 480 x 120, Seitenverhältnis 4:1."
+
+#: app/Services/TransStrings.php:637
+msgid "Recommended Plugins and Addons"
+msgstr "Empfohlene Plugins und Addons"
+
+#: app/Services/TransStrings.php:638
+msgid "Recommended Size: 1200 x 375px"
+msgstr "Empfohlene Größe: 1200 x 375px"
+
+#: app/Services/TransStrings.php:640
+msgid "Redirect URL"
+msgstr "URL umleiten"
+
+#: app/Services/TransStrings.php:641
+msgid "Redirect URL for Public Users"
+msgstr "Umleitungs-URL für öffentliche Benutzer"
+
+#: Modules/Auth/AuthModdule.php:587
+msgid "Register & Accept invitation"
+msgstr "Registrieren & Einladung annehmen"
+
+#: Modules/Auth/AuthModdule.php:177 Modules/Auth/AuthModdule.php:206
+msgid "Registration is disabled for this community"
+msgstr "Die Registrierung ist für diese Community deaktiviert"
+
+#: app/Services/TransStrings.php:642
+msgid "Registration URL for public Users"
+msgstr "Registrierungs-URL für öffentliche Nutzer"
+
+#: app/Services/TransStrings.php:643
+msgid "Remove"
+msgstr "Entfernen"
+
+#: app/Services/TransStrings.php:644
+msgid "Remove From Bookmark"
+msgstr "Aus Lesezeichen entfernen"
+
+#: app/Services/TransStrings.php:645
+msgid "Remove Media"
+msgstr "Medien entfernen"
+
+#: app/Services/TransStrings.php:646
+msgid "Remove Member"
+msgstr "Mitglied entfernen"
+
+#: app/Services/TransStrings.php:647
+msgid "Remove Member?"
+msgstr "Mitglied entfernen?"
+
+#: app/Services/TransStrings.php:648
+msgid "Remove Preview"
+msgstr "Vorschau entfernen"
+
+#: app/Services/TransStrings.php:649
+msgid "Remove Student?"
+msgstr "Schüler entfernen?"
+
+#: app/Services/TransStrings.php:650
+msgid "Removed from bookmark"
+msgstr "Vom Lesezeichen entfernt"
+
+#: app/Services/TransStrings.php:651
+msgid "Reply"
+msgstr "Antwort"
+
+#: app/Services/TransStrings.php:652
+msgid "Reply to email (optional)"
+msgstr "Auf E-Mail antworten (optional)"
+
+#: app/Services/TransStrings.php:653
+msgid "Reply to name (Optional)"
+msgstr "Auf Namen antworten (optional)"
+
+#: app/Services/TransStrings.php:654
+msgid "Replying to"
+msgstr "Antworten auf"
+
+#: app/Services/TransStrings.php:655
+msgid "Request Access"
+msgstr "Zugang anfordern"
+
+#: app/Services/TransStrings.php:656
+#, php-format
+msgid "Requested %s"
+msgstr "Angefordert %s"
+
+#: app/Services/TransStrings.php:657
+msgid "Required"
+msgstr "Erforderlich"
+
+#: app/Services/TransStrings.php:658
+msgid "Resend"
+msgstr "Neu senden"
+
+#: Modules/Auth/AuthModdule.php:150
+msgid "Reset your password"
+msgstr "Setze dein Passwort zurück"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:87
+msgid ""
+"Restart automation multiple times for a contact for this event. (Enable only "
+"if you want to restart automation for the same contact.)"
+msgstr ""
+"Starte die Automatisierung für einen Kontakt mehrmals für dieses Ereignis "
+"neu. (Aktiviere diese Option nur, wenn du die Automatisierung für denselben "
+"Kontakt neu starten willst.)"
+
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:88
+msgid ""
+"Restart the automation multiple times for a contact for this event. (Only "
+"enable this if you want to restart the automation for the same contact)"
+msgstr ""
+"Starte die Automatisierung mehrmals für einen Kontakt für dieses Ereignis "
+"neu. (Aktiviere dies nur, wenn du die Automatisierung für denselben Kontakt "
+"neu starten willst)"
+
+#: app/Services/TransStrings.php:659
+msgid "Rich Media Post Layout"
+msgstr "Rich Media Post Layout"
+
+#: app/Services/TransStrings.php:660
+msgid "Role"
+msgstr "Rolle"
+
+#: app/Http/Controllers/ProfileController.php:437
+msgid "Saturday"
+msgstr "Samstag"
+
+#: app/Services/TransStrings.php:663
+msgid "Save"
+msgstr "Speichern"
+
+#: app/Services/TransStrings.php:961
+msgid "save"
+msgstr "speichern"
+
+#: app/Services/TransStrings.php:664
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: app/Services/TransStrings.php:665
+msgid "Save Changes & Close"
+msgstr "Änderungen speichern & schließen"
+
+#: app/Services/TransStrings.php:666
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: app/Services/TransStrings.php:667
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: app/Services/TransStrings.php:668
+msgid "Schedule has been updated"
+msgstr "Der Zeitplan wurde aktualisiert"
+
+#: app/Services/TransStrings.php:669
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: app/Services/TransStrings.php:670
+msgid "Search"
+msgstr "Suche"
+
+#: app/Services/TransStrings.php:673
+msgid "Search for an existing user or Invite by Email"
+msgstr "Nach einem bestehenden Nutzer suchen oder per E-Mail einladen"
+
+#: app/Services/TransStrings.php:674
+msgid "Search for anything"
+msgstr "Suche nach allem"
+
+#: app/Services/TransStrings.php:671
+msgid "Search Gifs"
+msgstr "Gifs suchen"
+
+#: app/Services/TransStrings.php:675
+msgid "Search here..."
+msgstr "Suche hier..."
+
+#: app/Services/TransStrings.php:676
+#, php-format
+msgid "Search in %s"
+msgstr "Suche in %s"
+
+#: app/Services/TransStrings.php:672
+msgid "Search Members..."
+msgstr "Mitglieder suchen..."
+
+#: app/Services/TransStrings.php:677
+msgid "Search..."
+msgstr "Suche..."
+
+#: app/Services/TransStrings.php:962
+msgid "sec"
+msgstr "sec"
+
+#: app/Services/TransStrings.php:678
+msgid "Secondary"
+msgstr "Sekundäres"
+
+#: app/Services/TransStrings.php:679
+msgid "Secret"
+msgstr "Geheimnis"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:562
+msgid "Section has been deleted successfully."
+msgstr "Der Abschnitt wurde erfolgreich gelöscht."
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:435
+msgid "Section indexes have been updated successfully."
+msgstr "Die Abschnittsindizes wurden erfolgreich aktualisiert."
+
+#: app/Services/TransStrings.php:680
+msgid "Section Title"
+msgstr "Abschnitt Titel"
+
+#: app/Services/TransStrings.php:694
+msgid "Select a page"
+msgstr "Wähle eine Seite"
+
+#: app/Services/TransStrings.php:695
+msgid "Select a topic"
+msgstr "Wähle ein Thema"
+
+#: app/Services/TransStrings.php:696
+msgid "Select a user registration page"
+msgstr "Wähle eine Seite für die Benutzerregistrierung"
+
+#: app/Services/TransStrings.php:946
+msgid ""
+"Select a user registration page. The page must include the "
+"[fluent_community_registration] shortcode."
+msgstr ""
+"Wähle eine Seite zur Benutzerregistrierung aus. Die Seite muss den Shortcode "
+"[fluent_community_registration] enthalten."
+
+#: app/Services/TransStrings.php:681
+msgid "Select Access Roles"
+msgstr "Zugangsrollen auswählen"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:80
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:81
+msgid "Select Communities"
+msgstr "Gemeinden auswählen"
+
+#: app/Services/TransStrings.php:682
+msgid "Select Digest Email Day"
+msgstr "Digest E-Mail Tag auswählen"
+
+#: app/Services/TransStrings.php:683
+msgid "Select Drip date"
+msgstr "Drip-Datum auswählen"
+
+#: app/Services/TransStrings.php:684
+msgid "Select Group"
+msgstr "Gruppe auswählen"
+
+#: app/Services/TransStrings.php:697
+msgid "Select or paste your emoji here"
+msgstr "Wähle oder füge dein Emoji hier ein"
+
+#: app/Services/TransStrings.php:685
+msgid "Select Privacy"
+msgstr "Datenschutz auswählen"
+
+#: app/Services/TransStrings.php:686
+msgid "Select Role"
+msgstr "Rolle wählen"
+
+#: app/Services/TransStrings.php:687
+msgid "Select S3 Location"
+msgstr "S3 Standort auswählen"
+
+#: app/Services/TransStrings.php:688
+msgid "Select Shape Color:"
+msgstr "Wähle die Farbe der Form:"
+
+#: app/Services/TransStrings.php:689
+msgid "Select Shape:"
+msgstr "Form wählen:"
+
+#: app/Services/TransStrings.php:690
+msgid "Select Space"
+msgstr "Raum wählen"
+
+#: app/Services/TransStrings.php:691
+msgid "Select Spaces"
+msgstr "Räume auswählen"
+
+#: app/Services/TransStrings.php:698
+msgid "Select spaces where this topic will be visible."
+msgstr "Wähle Räume aus, in denen dieses Thema sichtbar sein soll."
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:42
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:43
+msgid "Select Status"
+msgstr "Status auswählen"
+
+#: app/Services/TransStrings.php:692
+msgid "Select Type"
+msgstr "Typ auswählen"
+
+#: app/Services/TransStrings.php:699
+msgid "Select type"
+msgstr "Typ auswählen"
+
+#: app/Services/TransStrings.php:693
+msgid "Select User"
+msgstr "Benutzer auswählen"
+
+#: app/Services/TransStrings.php:700
+msgid "Select user roles who can access the portal."
+msgstr "Wähle Benutzerrollen aus, die auf das Portal zugreifen können."
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:79
+msgid "Select which communities this automation funnel is for."
+msgstr "Wähle aus, für welche Communities diese Automatisierung gedacht ist."
+
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:80
+msgid "Select which courses this automation is for."
+msgstr "Wähle aus, für welche Kurse diese Automatisierung gilt."
+
+#: app/Http/Controllers/CommentsController.php:410
+msgid "Selected comment has been deleted"
+msgstr "Der ausgewählte Kommentar wurde gelöscht"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:362
+msgid "Selected user is not a student of this course"
+msgstr "Ausgewählter Benutzer ist kein Schüler dieses Kurses"
+
+#: app/Http/Controllers/SpaceController.php:455
+#: Modules/Course/Http/Controllers/CourseAdminController.php:329
+msgid "Selected user is not active"
+msgstr "Ausgewählter Benutzer ist nicht aktiv"
+
+#: app/Services/TransStrings.php:701
+msgid "Self Paced"
+msgstr "Selbstgesteuert"
+
+#: app/Services/TransStrings.php:704
+msgid "Send an email to the author when a new comment is added to a post."
+msgstr ""
+"Sende eine E-Mail an den Autor, wenn ein neuer Kommentar zu einem Beitrag "
+"hinzugefügt wird."
+
+#: app/Services/TransStrings.php:705
+msgid ""
+"Send an email when an admin or moderator tags (@everyone) on a post or tags "
+"someone in a post or comment."
+msgstr ""
+"Sende eine E-Mail, wenn ein Administrator oder Moderator einen Beitrag "
+"markiert (@everyone) oder jemanden in einem Beitrag oder Kommentar markiert."
+
+#: app/Services/TransStrings.php:702
+msgid "Send Email Invitation"
+msgstr "E-Mail-Einladung senden"
+
+#: app/Services/TransStrings.php:703
+msgid "Send Invitation"
+msgstr "Einladung senden"
+
+#: app/Services/TransStrings.php:706
+msgid "September"
+msgstr "September"
+
+#: app/Services/TransStrings.php:707
+msgid "Server Storage"
+msgstr "Server Speicher"
+
+#: app/Services/TransStrings.php:710
+msgid ""
+"Set a featured image at the top of the welcome banner. Recommended image "
+"dimension: 1680x600"
+msgstr ""
+"Lege ein Bild am oberen Rand des Willkommensbanners fest. Empfohlene "
+"Bildgröße: 1680x600"
+
+#: app/Services/TransStrings.php:708
+msgid "Set Logo"
+msgstr "Logo setzen"
+
+#: app/Services/TransStrings.php:709
+msgid "Set Open Graph Image"
+msgstr "Open Graph Bild einstellen"
+
+#: app/Services/TransStrings.php:711
+msgid ""
+"Set your from name, email, and email footer. These configurations will be "
+"used to send emails from FluentCommunity."
+msgstr ""
+"Lege deinen Absendernamen, deine E-Mail und deine E-Mail-Fußzeile fest. "
+"Diese Konfigurationen werden für den Versand von E-Mails von FluentCommunity "
+"verwendet."
+
+#: app/Services/TransStrings.php:712 app/Hooks/Handlers/PortalHandler.php:175
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: app/Services/TransStrings.php:713
+msgid "Settings could not be loaded"
+msgstr "Einstellungen konnten nicht geladen werden"
+
+#: app/Services/TransStrings.php:714
+msgid "Settings for Emoji & Reaction features"
+msgstr "Einstellungen für Emoji & Reaktionsfunktionen"
+
+#: app/Services/TransStrings.php:715
+msgid "Settings for Leaderboard & Gamification features"
+msgstr "Einstellungen für Leaderboard & Gamification Funktionen"
+
+#: app/Http/Controllers/AdminController.php:120
+msgid "Settings have been saved successfully."
+msgstr "Die Einstellungen wurden erfolgreich gespeichert."
+
+#: app/Services/TransStrings.php:716
+msgid "Settings saved successfully"
+msgstr "Einstellungen erfolgreich gespeichert"
+
+#: app/Services/TransStrings.php:717
+msgid "Shape"
+msgstr "Form"
+
+#: app/Services/TransStrings.php:718
+msgid "Short Bio"
+msgstr "Kurzbiografie"
+
+#: app/Services/TransStrings.php:719
+msgid "Short Description"
+msgstr "Kurzbeschreibung"
+
+#: app/Services/TransStrings.php:720
+msgid "Short title of this post"
+msgstr "Kurzer Titel dieses Beitrags"
+
+#: app/Services/TransStrings.php:727 app/Services/TransStrings.php:945
+msgid ""
+"Show a customized badge on user profiles beside their names to easily "
+"recognize your admins or moderators, or to give appreciation to your power "
+"users."
+msgstr ""
+"Zeige ein individuelles Abzeichen auf den Nutzerprofilen neben ihrem Namen "
+"an, um deine Admins oder Moderatoren leicht zu erkennen oder um deine Power-"
+"User zu würdigen."
+
+#: app/Services/TransStrings.php:721
+msgid "Show Default Feed link on left sidebar"
+msgstr "Standard-Feed-Link in der linken Seitenleiste anzeigen"
+
+#: app/Services/TransStrings.php:728
+msgid "Show icon on header menu items"
+msgstr "Symbol auf Kopfzeilenmenüpunkten anzeigen"
+
+#: app/Services/TransStrings.php:722
+msgid "Show Label on Badge"
+msgstr "Etikett auf dem Abzeichen anzeigen"
+
+#: app/Services/TransStrings.php:729
+msgid "Show last activity of a user on the profile page"
+msgstr "Letzte Aktivität eines Nutzers auf der Profilseite anzeigen"
+
+#: app/Services/TransStrings.php:723
+msgid "Show More"
+msgstr "Mehr zeigen"
+
+#: app/Services/TransStrings.php:730
+msgid "Show powered by text"
+msgstr "Powered by Text anzeigen"
+
+#: app/Services/TransStrings.php:724
+msgid "Show Right Sidebar on Space"
+msgstr "Rechte Seitenleiste im Raum anzeigen"
+
+#: app/Services/TransStrings.php:725
+msgid "Show Spaces even if the user is not a member of any space"
+msgstr "Spaces anzeigen, auch wenn der Nutzer kein Mitglied in einem Space ist"
+
+#: app/Services/TransStrings.php:726
+msgid "Show Topics on Post Card"
+msgstr "Themen auf Postkarte anzeigen"
+
+#: app/Services/TransStrings.php:731
+msgid "Show/Hide Topics On post Card"
+msgstr "Themen auf der Postkarte anzeigen/ausblenden"
+
+#: app/Services/TransStrings.php:732
+msgid "Sidebar Bottom Link Groups"
+msgstr "Linkgruppen in der Seitenleiste unten"
+
+#: Modules/Auth/AuthModdule.php:100 Modules/Auth/AuthModdule.php:529
+#: app/Views/auth/login_form.php:53
+msgid "Signup"
+msgstr "Anmeldung"
+
+#: app/Services/TransStrings.php:733
+msgid "Site Logo (For Dark Mode)"
+msgstr "Website-Logo (für den dunklen Modus)"
+
+#: app/Services/TransStrings.php:734
+msgid "Site Logo (For Light Background)"
+msgstr "Website-Logo (für hellen Hintergrund)"
+
+#: app/Services/TransStrings.php:735
+msgid "Slug"
+msgstr "Schnecke"
+
+#: app/Services/TransStrings.php:736
+msgid "Slug (optional)"
+msgstr "Schnecke (optional)"
+
+#: app/Http/Controllers/AdminController.php:395
+msgid "Slug can not be empty"
+msgstr "Slug kann nicht leer sein"
+
+#: app/Http/Controllers/AdminController.php:423
+msgid "Slug has been changed successfully"
+msgstr "Der Slug wurde erfolgreich geändert"
+
+#: app/Services/TransStrings.php:737
+msgid "Slug of the topic"
+msgstr "Schläger des Themas"
+
+#: app/Services/TransStrings.php:738
+msgid "Slug of your topic"
+msgstr "Schlagwort deines Themas"
+
+#: app/Services/TransStrings.php:739
+msgid "Social Links"
+msgstr "Soziale Links"
+
+#: Modules/Auth/AuthModdule.php:498 Modules/Auth/AuthModdule.php:585
+msgid "Someone"
+msgstr "Jemand"
+
+#: Modules/Auth/AuthModdule.php:305
+msgid "Something is not working! Please try again"
+msgstr "Etwas funktioniert nicht! Bitte versuche es erneut"
+
+#: app/Services/TransStrings.php:740
+msgid "Sorry you do not have permission to access this."
+msgstr "Du hast leider keine Erlaubnis, darauf zuzugreifen."
+
+#: app/Services/TransStrings.php:741
+msgid "Sorry! this community could not be loaded"
+msgstr "Sorry! Diese Community konnte nicht geladen werden"
+
+#: app/Http/Controllers/ReactionController.php:137
+msgid "Sorry! you do not have access to this post or invalid request"
+msgstr ""
+"Sorry! Du hast keinen Zugriff auf diesen Beitrag oder ungültige Anfrage"
+
+#: app/Services/TransStrings.php:742
+msgid "Sorry, no lesson found"
+msgstr "Sorry, keine Lektion gefunden"
+
+#: app/Services/TransStrings.php:743
+msgid "Sorry, the course can not be loaded"
+msgstr "Sorry, der Kurs kann nicht geladen werden"
+
+#: app/Services/TransStrings.php:744
+msgid "Sorry, the course could not be loaded."
+msgstr "Sorry, der Kurs konnte nicht geladen werden."
+
+#: app/Services/TransStrings.php:745
+msgid "Sorry, the requested post could not be found."
+msgstr "Sorry, der angeforderte Beitrag konnte nicht gefunden werden."
+
+#: app/Services/TransStrings.php:746
+msgid "Sorry, the selected plugins could not be installed"
+msgstr "Sorry, die ausgewählten Plugins konnten nicht installiert werden"
+
+#: app/Services/TransStrings.php:747
+msgid "Sorry, you do not have permission to view this page"
+msgstr "Du hast leider keine Erlaubnis, diese Seite zu sehen"
+
+#: app/Services/TransStrings.php:748
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+#: app/Services/TransStrings.php:749
+msgid "Sort by:"
+msgstr "Sortieren nach:"
+
+#: app/Services/TransStrings.php:750
+msgid "Sort comments by"
+msgstr "Kommentare sortieren nach"
+
+#: app/Services/TransStrings.php:751
+msgid "Sort members by"
+msgstr "Mitglieder sortieren nach"
+
+#: app/Services/TransStrings.php:752
+msgid "Sort posts by"
+msgstr "Beiträge sortieren nach"
+
+#: app/Services/TransStrings.php:753
+msgid "Space"
+msgstr "Raum"
+
+#: app/Services/TransStrings.php:754
+msgid "Space Admin (All Access)"
+msgstr "Space Admin (All Access)"
+
+#: app/Services/TransStrings.php:755
+msgid "Space Description"
+msgstr "Raum Beschreibung"
+
+#: app/Services/TransStrings.php:756
+msgid "Space Emoji"
+msgstr "Raum Emoji"
+
+#: app/Http/Controllers/SpaceController.php:668
+msgid "Space group has been created successfully"
+msgstr "Die Gruppe wurde erfolgreich erstellt"
+
+#: app/Http/Controllers/SpaceController.php:712
+msgid "Space group has been created updated"
+msgstr "Gruppe wurde erstellt aktualisiert"
+
+#: app/Http/Controllers/SpaceController.php:738
+msgid "Space group has been deleted successfully"
+msgstr "Die Gruppe wurde erfolgreich gelöscht"
+
+#: app/Http/Controllers/SpaceController.php:754
+msgid "Space group indexes have been updated."
+msgstr "Die Indizes der Raumgruppen wurden aktualisiert."
+
+#: app/Services/TransStrings.php:757
+msgid "Space Groups"
+msgstr "Raumgruppen"
+
+#: app/Http/Controllers/SpaceController.php:115
+msgid "Space has been created successfully"
+msgstr "Der Raum wurde erfolgreich erstellt"
+
+#: app/Http/Controllers/SpaceController.php:431
+msgid "Space has been deleted successfully"
+msgstr "Der Raum wurde erfolgreich gelöscht"
+
+#: app/Http/Controllers/SpaceController.php:788
+msgid "Space has been moved successfully"
+msgstr "Der Raum wurde erfolgreich verschoben"
+
+#: app/Http/Controllers/SpaceController.php:244
+msgid "Space has been updated"
+msgstr "Der Raum wurde aktualisiert"
+
+#: app/Http/Controllers/SpaceController.php:771
+msgid "Space indexes have been updated."
+msgstr "Die Raumindizes wurden aktualisiert."
+
+#: app/Services/TransStrings.php:758
+msgid "Space Links"
+msgstr "Raum Links"
+
+#: app/Services/TransStrings.php:759
+msgid "Space Logo"
+msgstr "Raum Logo"
+
+#: app/Services/TransStrings.php:760
+msgid "Space Management Roles"
+msgstr "Raum-Management-Rollen"
+
+#: app/Services/TransStrings.php:761
+msgid "Space Moderator"
+msgstr "Raum-Moderator"
+
+#: app/Services/TransStrings.php:762
+msgid "Space Settings"
+msgstr "Raumeinstellungen"
+
+#: app/Services/TransStrings.php:763
+msgid "Space Slug (no space or special chars)"
+msgstr "Space Slug (keine Leer- oder Sonderzeichen)"
+
+#: app/Services/TransStrings.php:764
+msgid "Space Title"
+msgstr "Raum Titel"
+
+#: Modules/Auth/AuthHelper.php:166
+msgid "Space username"
+msgstr "Raum-Benutzername"
+
+#: app/Services/TransStrings.php:765
+msgid "Space visibility"
+msgstr "Raumsichtbarkeit"
+
+#: app/Services/TransStrings.php:766 app/Services/Helper.php:863
+msgid "Spaces"
+msgstr "Räume"
+
+#: app/Services/TransStrings.php:767
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: app/Services/TransStrings.php:768
+msgid "Status"
+msgstr "Status"
+
+#: app/Services/TransStrings.php:769
+msgid "Status:"
+msgstr "Status:"
+
+#: app/Services/TransStrings.php:770
+msgid "Storage Location"
+msgstr "Speicherort"
+
+#: app/Http/Controllers/AdminController.php:271
+msgid "Storage settings have been updated successfully"
+msgstr "Die Speichereinstellungen wurden erfolgreich aktualisiert"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:369
+msgid "Student has been removed from this course"
+msgstr "Der Schüler wurde aus diesem Kurs entfernt"
+
+#: app/Services/TransStrings.php:771
+msgid "Students"
+msgstr "Studierende"
+
+#. weekday min Please keep the serial and format
+#: app/Hooks/Handlers/PortalHandler.php:478
+msgid "Su_Mo_Tu_We_Th_Fr_Sa"
+msgstr "So_Mo_Tu_We_Th_Fr_Sa"
+
+#: app/Services/TransStrings.php:772
+msgid "Sub-title of your topic"
+msgstr "Untertitel deines Themas"
+
+#: app/Services/TransStrings.php:773
+msgid "Subscribe to new posts notifications by space"
+msgstr "Benachrichtigungen über neue Beiträge per Space abonnieren"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:41
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:42
+msgid "Subscription Status"
+msgstr "Abonnement-Status"
+
+#. weekday short Please keep the serial and format
+#: app/Hooks/Handlers/PortalHandler.php:474
+msgid "Sun_Mon_Tue_Wed_Thu_Fri_Sat"
+msgstr "So_Mon_Di_Wed_Thu_Fri_Sat"
+
+#: app/Http/Controllers/ProfileController.php:438
+msgid "Sunday"
+msgstr "Sonntag"
+
+#. weekday. Please keep the serial and format
+#: app/Hooks/Handlers/PortalHandler.php:470
+msgid "Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday"
+msgstr "Sonntag_Montag_Dienstag_Mittwoch_Donnerstag_Freitag_Samstag"
+
+#: app/Services/TransStrings.php:661
+msgid "SVG Code for Icon (Simplified SVG Code) / Emoji"
+msgstr "SVG Code für Icon (Vereinfachter SVG Code) / Emoji"
+
+#: app/Services/TransStrings.php:662
+msgid "SVG Code. No url please / You can use emoji"
+msgstr "SVG Code. Bitte keine Url / Du kannst Emoji verwenden"
+
+#: app/Services/TransStrings.php:774
+msgid "Switch to List View"
+msgstr "Zur Listenansicht wechseln"
+
+#: app/Services/TransStrings.php:775
+msgid "Switch to Timeline View"
+msgstr "Zur Zeitleistenansicht wechseln"
+
+#: app/Services/TransStrings.php:776
+msgid "Tag Everyone"
+msgstr "Tag Jeder"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:78
+msgid "Targeted Communitues"
+msgstr "Zielgruppen"
+
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:79
+msgid "Targeted Courses"
+msgstr "Gezielte Kurse"
+
+#: app/Services/TransStrings.php:777
+msgid "Text"
+msgstr "Text"
+
+#: app/Services/TransStrings.php:778
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: Modules/Auth/AuthHelper.php:242
+msgid ""
+"Thank you for registering with us! To complete the setup of your account, "
+"please enter the verification code below on the registration page."
+msgstr ""
+"Danke, dass du dich bei uns registriert hast! Um die Einrichtung deines "
+"Kontos abzuschließen, gib bitte den Verifizierungscode unten auf der "
+"Anmeldeseite ein."
+
+#: app/Http/Controllers/SettingController.php:177
+msgid ""
+"The Best Email Marketing Automation Plugin for WordPress. Capture, Segment "
+"and Automate your Marketing."
+msgstr ""
+"Das beste E-Mail-Marketing-Automatisierungs-Plugin für WordPress. Erfasse, "
+"segmentiere und automatisiere dein Marketing."
+
+#: app/Http/Controllers/FeedsController.php:583
+msgid "The file must be an image type."
+msgstr "Die Datei muss ein Bildtyp sein."
+
+#: app/Services/TransStrings.php:780
+msgid "The post has been deleted"
+msgstr "Der Beitrag wurde gelöscht"
+
+#: app/Services/TransStrings.php:779
+msgid "The post URL may be incorrect"
+msgstr "Die Post-URL könnte falsch sein"
+
+#. Description of the plugin
+msgid "The super-fast Community Plugin for WordPress"
+msgstr "Das superschnelle Community-Plugin für WordPress"
+
+#: app/Services/TransStrings.php:781
+msgid "The user cannot access the portal."
+msgstr "Der Nutzer kann nicht auf das Portal zugreifen."
+
+#: app/Services/TransStrings.php:782
+msgid "The verification string does not match"
+msgstr "Die Verifizierungszeichenfolge stimmt nicht überein"
+
+#: app/Services/TransStrings.php:783
+msgid "These settings will be applied across all spaces you're a member of."
+msgstr ""
+"Diese Einstellungen werden für alle Räume übernommen, in denen du Mitglied "
+"bist."
+
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:27
+#: Modules/Integrations/FluentCRM/CourseEnrollmentTrigger.php:36
+msgid "This automation will be initiated when a user enrolls in a course."
+msgstr ""
+"Diese Automatisierung wird ausgelöst, wenn sich ein Nutzer für einen Kurs "
+"einschreibt."
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:35
+msgid "This automation will be initiated when a user join in a Space"
+msgstr ""
+"Diese Automatisierung wird ausgelöst, wenn ein Nutzer einem Space beitritt"
+
+#: Modules/Integrations/FluentCRM/SpaceJoinTrigger.php:26
+msgid "This automation will be initiated when a user joins a space."
+msgstr ""
+"Diese Automatisierung wird ausgelöst, wenn ein Nutzer einem Raum beitritt."
+
+#: Modules/Auth/AuthHelper.php:245
+msgid ""
+"This code is valid for 10 minutes and is meant to ensure the security of "
+"your account. If you did not initiate this request, please ignore this email."
+msgstr ""
+"Dieser Code ist für 10 Minuten gültig und soll die Sicherheit deines Kontos "
+"gewährleisten. Wenn du diese Anfrage nicht initiiert hast, ignoriere bitte "
+"diese E-Mail."
+
+#: app/Services/TransStrings.php:784
+msgid "This course is in Draft status and only visible to Admin / Moderators"
+msgstr ""
+"Dieser Kurs ist im Entwurfsstatus und nur für Administratoren/Moderatoren "
+"sichtbar"
+
+#: app/Services/TransStrings.php:785
+msgid ""
+"This email footer will be used for all emails sent from FluentCommunity. "
+"It's highly recommended to use your business name and address in the footer "
+"for compliance."
+msgstr ""
+"Diese Fußzeile wird für alle E-Mails verwendet, die von FluentCommunity "
+"verschickt werden. Es wird dringend empfohlen, den Namen und die Adresse "
+"deines Unternehmens in der Fußzeile zu verwenden, um die Vorschriften "
+"einzuhalten."
+
+#: Modules/Auth/AuthHelper.php:259
+#, php-format
+msgid "This email has been sent from %1$s. Site: %2$s"
+msgstr "Diese E-Mail wurde von %1$s gesendet. Standort: %2$s"
+
+#: app/Services/TransStrings.php:786
+msgid "This feature is available on the pro version of FluentCommunity"
+msgstr "Diese Funktion ist in der Pro-Version von FluentCommunity verfügbar"
+
+#: Modules/Auth/AuthModdule.php:409
+msgid ""
+"This form cannot be used to log in. Please reload the page and try again."
+msgstr ""
+"Dieses Formular kann nicht zum Einloggen verwendet werden. Bitte lade die "
+"Seite neu und versuche es noch einmal."
+
+#: app/Services/TransStrings.php:787
+msgid ""
+"This image will be used on social sharing preview. Recommended size: 1200 x "
+"630 px"
+msgstr ""
+"Dieses Bild wird in der Vorschau für Social Sharing verwendet. Empfohlene "
+"Größe: 1200 x 630 px"
+
+#: app/Services/TransStrings.php:788
+msgid "This is a private course"
+msgstr "Dies ist ein privater Kurs"
+
+#: app/Services/TransStrings.php:789
+msgid "This is a private space"
+msgstr "Dies ist ein privater Raum"
+
+#: app/Services/TransStrings.php:790
+msgid ""
+"This is the default settings that will be applied to all the community "
+"members. Individual members can over-write the settings for their own "
+"preference"
+msgstr ""
+"Dies sind die Standardeinstellungen, die für alle Community-Mitglieder "
+"gelten. Einzelne Mitglieder können die Einstellungen für ihre eigenen "
+"Präferenzen überschreiben"
+
+#: app/Services/TransStrings.php:791
+msgid "This lesson is not published for you yet"
+msgstr "Diese Lektion ist noch nicht für dich veröffentlicht"
+
+#: app/Services/TransStrings.php:792
+#, php-format
+msgid "This lesson will be available to you on %s"
+msgstr "Diese Lektion wird für dich am %s verfügbar sein"
+
+#: app/Services/TransStrings.php:793
+#, php-format
+msgid "This lesson will be unlocked on %s"
+msgstr "Diese Lektion wird am %s freigeschaltet"
+
+#: app/Services/TransStrings.php:936
+msgid ""
+"This lock screen will not be shown to the non-members as you set to the lock "
+"screen type to Default in the general settings"
+msgstr ""
+"Dieser Sperrbildschirm wird Nicht-Mitgliedern nicht angezeigt, da du in den "
+"allgemeinen Einstellungen den Sperrbildschirmtyp auf Standard eingestellt "
+"hast"
+
+#: app/Services/TransStrings.php:794
+msgid "This may be due to one of the following reasons:"
+msgstr "Dafür kann es einen der folgenden Gründe geben:"
+
+#: app/Services/TransStrings.php:795
+msgid "This page is only visible to non-members viewing a private space."
+msgstr ""
+"Diese Seite ist nur für Nicht-Mitglieder sichtbar, die einen privaten "
+"Bereich betrachten."
+
+#: app/Services/TransStrings.php:796
+msgid ""
+"This title will be used for the meta title and email notification references."
+" It should match your site title."
+msgstr ""
+"Dieser Titel wird für den Metatitel und die E-Mail-Benachrichtigung "
+"verwendet. Er sollte mit dem Titel deiner Website übereinstimmen."
+
+#: app/Services/Libs/DailyDigest.php:63
+#, php-format
+msgid "This week on %s"
+msgstr "Diese Woche bei %s"
+
+#: app/Services/TransStrings.php:797
+msgid ""
+"This will be displayed under the title in the topic when selecting in post "
+"creation form"
+msgstr ""
+"Dies wird unter dem Titel des Themas angezeigt, wenn du es im Formular zur "
+"Beitragserstellung auswählst"
+
+#: app/Services/TransStrings.php:798
+msgid "Thumbnail / Open Graph Image"
+msgstr "Thumbnail / Open Graph Image"
+
+#: app/Services/TransStrings.php:799
+msgid "Thumbnail / Open Graph Image (Recommended Size: 1200 x 630)"
+msgstr "Thumbnail / Open Graph Image (Empfohlene Größe: 1200 x 630)"
+
+#: app/Http/Controllers/ProfileController.php:435
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: app/Services/TransStrings.php:800
+msgid "Time to send the digest email"
+msgstr "Zeit, die Übersichts-E-Mail zu senden"
+
+#: app/Services/TransStrings.php:801
+msgid "Timeline"
+msgstr "Zeitleiste"
+
+#: app/Services/TransStrings.php:802
+msgid "Tip: Quick-launch search with"
+msgstr "Tipp: Schnellstart-Suche mit"
+
+#: app/Services/TransStrings.php:803
+msgid "Title"
+msgstr "Titel"
+
+#: app/Services/TransStrings.php:804
+msgid "Title & Description"
+msgstr "Titel & Beschreibung"
+
+#: app/Services/TransStrings.php:805
+msgid "Title (optional)"
+msgstr "Titel (optional)"
+
+#: app/Services/FeedsHelper.php:399
+msgid "Title is required. Please provide a title"
+msgstr "Der Titel ist erforderlich. Bitte gib einen Titel an"
+
+#: app/Services/TransStrings.php:806
+msgid "Title must be at least 2 characters long"
+msgstr "Der Titel muss mindestens 2 Zeichen lang sein"
+
+#: app/Services/TransStrings.php:807
+msgid "Title of the topic"
+msgstr "Titel des Themas"
+
+#: app/Services/TransStrings.php:808
+msgid "Title of your topic"
+msgstr "Titel deines Themas"
+
+#: app/Services/TransStrings.php:809
+msgid "To join the discussion of this community, please login or signup"
+msgstr ""
+"Um an der Diskussion in dieser Community teilzunehmen, melde dich bitte an "
+"oder registriere dich"
+
+#: app/Services/TransStrings.php:810
+msgid "Toggle Bookmark"
+msgstr "Lesezeichen umschalten"
+
+#: app/Services/TransStrings.php:811
+msgid "Toggle Sticky"
+msgstr "Sticky umschalten"
+
+#: Modules/Auth/AuthHelper.php:339
+msgid "Too many requests. Please try again later"
+msgstr "Zu viele Anfragen. Bitte versuche es später noch einmal"
+
+#: app/Services/TransStrings.php:812
+msgid "Top Links (At Sidebar)"
+msgstr "Top Links (in der Seitenleiste)"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:479
+msgid "Topic has been created successfully."
+msgstr "Das Thema wurde erfolgreich erstellt."
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:506
+#: Modules/Course/Http/Controllers/CourseAdminController.php:542
+msgid "Topic has been updated successfully."
+msgstr "Das Thema wurde erfolgreich aktualisiert."
+
+#: app/Services/TransStrings.php:815
+msgid "Topic navigation"
+msgstr "Thema Navigation"
+
+#: app/Services/TransStrings.php:813
+msgid "Topic Slug"
+msgstr "Thema Schnecke"
+
+#: app/Services/TransStrings.php:816
+msgid "Topic sub-title"
+msgstr "Untertitel des Themas"
+
+#: app/Services/TransStrings.php:814
+msgid "Topic Title"
+msgstr "Thema Titel"
+
+#: app/Services/TransStrings.php:817
+msgid "Topics"
+msgstr "Themen"
+
+#: app/Services/TransStrings.php:818
+msgid "Topics Settings"
+msgstr "Themen Einstellungen"
+
+#: app/Services/TransStrings.php:819 app/Services/Libs/DailyDigest.php:227
+msgid "Trending Posts"
+msgstr "Beliebte Beiträge"
+
+#: app/Services/TransStrings.php:820
+msgid "Try searching for keywords in posts"
+msgstr "Versuche, nach Schlüsselwörtern in Beiträgen zu suchen"
+
+#: app/Http/Controllers/ProfileController.php:433
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: app/Services/TransStrings.php:821
+#, php-format
+msgid "Type %s to confirm"
+msgstr "Tippe %s zur Bestätigung"
+
+#: app/Services/TransStrings.php:822
+msgid "Type:"
+msgstr "Typ:"
+
+#: app/Services/TransStrings.php:824
+msgid "Unanswered"
+msgstr "Unbeantwortet"
+
+#: app/Services/TransStrings.php:963
+msgid "unavailable"
+msgstr "nicht verfügbar"
+
+#: app/Services/TransStrings.php:825
+msgid ""
+"Unlock potential by creating new feeds and earning points for likes. Advance "
+"in rank based on your total points using this module"
+msgstr ""
+"Schalte dein Potenzial frei, indem du neue Feeds erstellst und Punkte für "
+"Likes sammelst. Steige im Rang auf, basierend auf deiner Gesamtpunktzahl mit "
+"diesem Modul"
+
+#: app/Services/TransStrings.php:934
+msgid ""
+"Unlock potential by creating new feeds and earning points for likes. Advance "
+"in rank based on your total points using this module."
+msgstr ""
+"Schalte dein Potenzial frei, indem du neue Feeds erstellst und Punkte für "
+"Likes sammelst. Mit diesem Modul kannst du je nach Gesamtpunktzahl in der "
+"Rangliste aufsteigen."
+
+#: app/Services/TransStrings.php:826
+msgid ""
+"Unlock potential by using giphy when creating a new article , post or comment"
+msgstr ""
+"Setze das Potenzial frei, indem du Giphy beim Erstellen eines neuen Artikels,"
+" Beitrags oder Kommentars verwendest"
+
+#: app/Services/TransStrings.php:827
+msgid "Unlock section after"
+msgstr "Abschnitt freischalten nach"
+
+#: app/Services/TransStrings.php:829
+msgid "Unpin from sidebar"
+msgstr "Aus der Seitenleiste entfernen"
+
+#: app/Services/TransStrings.php:828
+msgid "Unpin from Top"
+msgstr "Von oben abkoppeln"
+
+#: app/Services/TransStrings.php:830
+msgid "Unpinned from sidebar"
+msgstr "Aus der Seitenleiste entfernen"
+
+#: app/Services/TransStrings.php:831 app/Services/Libs/DailyDigest.php:167
+msgid "Unread Notifications"
+msgstr "Ungelesene Benachrichtigungen"
+
+#: app/Services/TransStrings.php:832
+msgid "Unread only"
+msgstr "Nur ungelesen"
+
+#: app/Services/TransStrings.php:833
+msgid "Update"
+msgstr "Update"
+
+#: app/Services/TransStrings.php:834
+msgid "Update Date"
+msgstr "Update Datum"
+
+#: app/Services/TransStrings.php:835
+msgid "Update Info"
+msgstr "Infos aktualisieren"
+
+#: app/Services/TransStrings.php:836
+msgid "Update Role"
+msgstr "Rolle aktualisieren"
+
+#: app/Services/TransStrings.php:837
+msgid "Update Status"
+msgstr "Status aktualisieren"
+
+#: app/Services/TransStrings.php:838
+msgid "Update Topic"
+msgstr "Update Thema"
+
+#: app/Services/TransStrings.php:839
+msgid "Upgrade Now"
+msgstr "Jetzt upgraden"
+
+#: app/Services/TransStrings.php:840
+msgid "Upgrade to Pro"
+msgstr "Upgrade auf Pro"
+
+#: app/Services/TransStrings.php:841
+msgid "Upload Cover"
+msgstr "Abdeckung hochladen"
+
+#: app/Services/TransStrings.php:842
+msgid "Upload Logo"
+msgstr "Logo hochladen"
+
+#: app/Services/TransStrings.php:843
+msgid "Uploading..."
+msgstr "Hochladen..."
+
+#: app/Services/TransStrings.php:823
+msgid "URL"
+msgstr "URL"
+
+#: app/Services/TransStrings.php:844
+msgid "Url of the item"
+msgstr "Url des Artikels"
+
+#: app/Services/TransStrings.php:845
+#, php-format
+msgid ""
+"Use %1s tag to insert dynamic notification settings URL. Other Smartcode: "
+"%2s for Site Name with permalink"
+msgstr ""
+"Verwende den %1s-Tag, um die URL für dynamische "
+"Benachrichtigungseinstellungen einzufügen. Anderer Smartcode: %2s für Site "
+"Name mit Permalink"
+
+#: app/Services/TransStrings.php:846
+msgid "Use Custom Login Page"
+msgstr "Benutzerdefinierte Anmeldeseite verwenden"
+
+#: app/Services/TransStrings.php:847
+msgid "Use Default"
+msgstr "Standard verwenden"
+
+#: app/Services/TransStrings.php:849
+msgid ""
+"Use emojis to add a personal touch and make your new article, post, or "
+"comment more expressive"
+msgstr ""
+"Verwende Emojis, um deinem Artikel, Beitrag oder Kommentar eine persönliche "
+"Note zu geben und ihn ausdrucksstark zu gestalten"
+
+#: app/Services/TransStrings.php:848
+msgid "Use Enhanced Color Contrast for Accessibility (a11y)"
+msgstr "Erhöhten Farbkontrast für Barrierefreiheit verwenden (a11y)"
+
+#: app/Services/TransStrings.php:850
+msgid "User"
+msgstr "Benutzer"
+
+#: Modules/Auth/Classes/InvitationService.php:163
+msgid "User already exists in the space."
+msgstr "Der Benutzer existiert bereits in diesem Raum."
+
+#: Modules/Auth/Classes/InvitationService.php:153
+msgid "User already exists."
+msgstr "Der Benutzer existiert bereits."
+
+#: app/Services/TransStrings.php:851
+msgid "User Badge Module"
+msgstr "Benutzerabzeichen-Modul"
+
+#: app/Services/TransStrings.php:852
+msgid "User Badge Settings"
+msgstr "Einstellungen für Benutzerausweise"
+
+#: app/Services/TransStrings.php:853
+msgid "User Badges"
+msgstr "Benutzerabzeichen"
+
+#: app/Services/TransStrings.php:856
+msgid "User can change the layout style to their own preference."
+msgstr "Die Nutzer können das Layout nach ihren eigenen Vorstellungen ändern."
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:344
+msgid "User has been added to this course"
+msgstr "Benutzer wurde zu diesem Kurs hinzugefügt"
+
+#: app/Http/Controllers/SpaceController.php:549
+msgid "User has been removed from this community"
+msgstr "Der Benutzer wurde aus dieser Community entfernt"
+
+#: Modules/Auth/Classes/InvitationService.php:144
+msgid "User ID is required"
+msgstr "Benutzer-ID ist erforderlich"
+
+#: Modules/Course/Http/Controllers/CourseAdminController.php:339
+msgid "User is already added to this course."
+msgstr "Der Benutzer wurde bereits zu diesem Kurs hinzugefügt."
+
+#: app/Services/TransStrings.php:854
+msgid "User Profile Badge"
+msgstr "Benutzerprofil Abzeichen"
+
+#: app/Services/TransStrings.php:857
+msgid ""
+"User registration is disabled for your site. Please enable from General "
+"Setting."
+msgstr ""
+"Die Benutzerregistrierung ist für deine Seite deaktiviert. Bitte aktiviere "
+"sie in den allgemeinen Einstellungen."
+
+#: app/Services/TransStrings.php:855
+msgid "User Roles"
+msgstr "Benutzer-Rollen"
+
+#: app/Services/TransStrings.php:858
+msgid "Username"
+msgstr "Benutzername"
+
+#: app/Http/Controllers/ProfileController.php:185
+msgid ""
+"Username already taken by someone else. Please use a different username."
+msgstr ""
+"Der Benutzername wurde bereits von jemand anderem verwendet. Bitte benutze "
+"einen anderen Benutzernamen."
+
+#: Modules/Auth/AuthModdule.php:235 Modules/Auth/AuthModdule.php:265
+msgid "Username is already taken"
+msgstr "Benutzername ist bereits vergeben"
+
+#: Modules/Auth/AuthModdule.php:237
+msgid "Username is already taken. Please use a different username"
+msgstr ""
+"Der Benutzername ist bereits vergeben. Bitte benutze einen anderen "
+"Benutzernamen"
+
+#: Modules/Auth/AuthModdule.php:226
+msgid "Username is not valid"
+msgstr "Benutzername ist nicht gültig"
+
+#: Modules/Auth/AuthModdule.php:264
+msgid "Username is required"
+msgstr "Benutzername ist erforderlich"
+
+#: app/Http/Controllers/ProfileController.php:216
+msgid "Username should be at least 3 characters long."
+msgstr "Der Benutzername sollte mindestens 3 Zeichen lang sein."
+
+#: app/Services/TransStrings.php:859
+msgid "Users can change their community username"
+msgstr "Nutzer können ihren Community-Benutzernamen ändern"
+
+#: app/Services/TransStrings.php:860
+msgid "Users can choose multiple options"
+msgstr "Nutzer können mehrere Optionen wählen"
+
+#: app/Services/TransStrings.php:861
+msgid "Valid Email address"
+msgstr "Gültige E-Mail Adresse"
+
+#: Modules/Auth/AuthHelper.php:279
+msgid "Verification Code"
+msgstr "Verifizierungscode"
+
+#: Modules/Auth/AuthModdule.php:325
+msgid "Verification code is required"
+msgstr "Verifizierungscode ist erforderlich"
+
+#: Modules/Auth/AuthHelper.php:243
+#, php-format
+msgid "Verification Code: %s"
+msgstr "Verifizierungscode: %s"
+
+#: Modules/Auth/AuthHelper.php:311
+msgid "Verification token has expired. Please try again."
+msgstr "Das Verifizierungs-Token ist abgelaufen. Bitte versuche es erneut."
+
+#: app/Services/TransStrings.php:862
+msgid "Verify License"
+msgstr "Lizenz überprüfen"
+
+#: app/Services/TransStrings.php:863
+msgid "Video"
+msgstr "Video"
+
+#: app/Services/TransStrings.php:864
+msgid "Video length"
+msgstr "Videolänge"
+
+#: app/Services/TransStrings.php:865
+msgid "View"
+msgstr "Siehe"
+
+#: app/Services/TransStrings.php:873
+msgid "View actions"
+msgstr "Aktionen ansehen"
+
+#: app/Services/TransStrings.php:866
+msgid "View All"
+msgstr "Alle sehen"
+
+#: app/Services/Libs/DailyDigest.php:84
+msgid "View all the notifications"
+msgstr "Alle Benachrichtigungen anzeigen"
+
+#: app/Services/TransStrings.php:874
+msgid "View comment actions"
+msgstr "Kommentar Aktionen ansehen"
+
+#: app/Services/TransStrings.php:867
+msgid "View Course"
+msgstr "Kurs ansehen"
+
+#: app/Services/TransStrings.php:868
+msgid "View Invitations"
+msgstr "Einladungen ansehen"
+
+#: app/Services/TransStrings.php:875
+msgid "View more comments"
+msgstr "Mehr Kommentare sehen"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:596
+msgid "View Pending Join Requests"
+msgstr "Ausstehende Beitrittsanträge anzeigen"
+
+#: app/Services/TransStrings.php:876
+msgid "View pending members"
+msgstr "Anhängige Mitglieder anzeigen"
+
+#: app/Services/TransStrings.php:869
+msgid "View Post actions"
+msgstr "Ansicht Post Aktionen"
+
+#: app/Services/TransStrings.php:870
+msgid "View Profile"
+msgstr "Profil ansehen"
+
+#: app/Services/TransStrings.php:871
+msgid "View Settings"
+msgstr "Einstellungen ansehen"
+
+#: app/Services/TransStrings.php:872
+msgid "View Space"
+msgstr "Raum ansehen"
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:443
+msgid "View the comment"
+msgstr "Den Kommentar ansehen"
+
+#: app/Services/TransStrings.php:877
+msgid "Visibility:"
+msgstr "Sichtbarkeit:"
+
+#: app/Hooks/Handlers/PortalHandler.php:110
+msgid "Visit Community Portal"
+msgstr "Community-Portal besuchen"
+
+#: app/Services/TransStrings.php:878
+msgid "Want to deactivate this license?"
+msgstr "Möchtest du diese Lizenz deaktivieren?"
+
+#: app/Services/TransStrings.php:879
+msgid ""
+"Want to use awesome GIF, upgrade to pro plan now and enjoy your surfing on "
+"Fluent community"
+msgstr ""
+"Willst du das fantastische GIF nutzen, dann steig jetzt auf den Pro-Tarif um "
+"und genieße dein Surfen in der Fluent Community"
+
+#: app/Services/TransStrings.php:880
+msgid "Warning"
+msgstr "Warnung"
+
+#: app/Services/TransStrings.php:881
+msgid "Website"
+msgstr "Website"
+
+#: app/Services/TransStrings.php:882
+msgid "Website URL"
+msgstr "Website URL"
+
+#: app/Http/Controllers/ProfileController.php:434
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: app/Services/TransStrings.php:883
+#, php-format
+msgid "Weekly digest on %s"
+msgstr "Wöchentliche Übersicht über %s"
+
+#: Modules/Auth/Classes/InvitationHandler.php:67
+#, php-format
+msgid ""
+"Welcome back %1$s. %2$s has been invited you to join the community. Please "
+"click the button bellow to continue."
+msgstr ""
+"Willkommen zurück %1$s. du wurdest von %2$s eingeladen, der Community "
+"beizutreten. Bitte klicke auf die Schaltfläche unten, um fortzufahren."
+
+#: Modules/Auth/AuthModdule.php:478
+msgid "Welcome back!"
+msgstr "Willkommen zurück!"
+
+#: app/Services/TransStrings.php:884
+msgid "Welcome Banner"
+msgstr "Willkommen Banner"
+
+#: app/Http/Controllers/AdminController.php:303
+msgid "Welcome banner settings have been updated successfully"
+msgstr ""
+"Die Einstellungen für das Willkommensbanner wurden erfolgreich aktualisiert"
+
+#: Modules/Auth/AuthModdule.php:127
+#, php-format
+msgid "Welcome to %s"
+msgstr "Willkommen bei %s"
+
+#: app/Services/TransStrings.php:885
+#, php-format
+msgid "What's happening, %s"
+msgstr "Was gibts Neues, %s"
+
+#: app/Services/TransStrings.php:886
+msgid "When creating a new post, check if the post title is required or not"
+msgstr ""
+"Prüfe beim Erstellen eines neuen Beitrags, ob der Beitragstitel erforderlich "
+"ist oder nicht"
+
+#: app/Services/TransStrings.php:887
+msgid ""
+"When enabled, members can change their username on their own. Otherwise, an "
+"admin or moderator can change the username."
+msgstr ""
+"Wenn diese Funktion aktiviert ist, können Mitglieder ihren Benutzernamen "
+"selbst ändern. Andernfalls kann ein Administrator oder Moderator den "
+"Benutzernamen ändern."
+
+#: app/Services/TransStrings.php:888
+msgid ""
+"When enabled, the page header will remain visible at the top of the screen "
+"as users scroll down the page."
+msgstr ""
+"Wenn diese Funktion aktiviert ist, bleibt der Seitenkopf am oberen Rand des "
+"Bildschirms sichtbar, während die Nutzer die Seite nach unten scrollen."
+
+#: app/Services/TransStrings.php:889
+msgid "Who can access the portal."
+msgstr "Wer kann das Portal nutzen?"
+
+#: app/Services/TransStrings.php:890
+msgid "Who can view all members page"
+msgstr "Wer kann die Seite aller Mitglieder sehen"
+
+#: app/Services/TransStrings.php:891
+msgid "Who can view membership spaces on the user profile page."
+msgstr "Wer kann Mitgliedsbereiche auf der Benutzerprofilseite einsehen."
+
+#: app/Services/TransStrings.php:892
+msgid "Who can view space members"
+msgstr "Wer kann Raummitglieder sehen"
+
+#: app/Services/TransStrings.php:893
+msgid "Will be used on card preview and social sharing preview."
+msgstr ""
+"Wird für die Kartenvorschau und die Vorschau für soziale Netzwerke verwendet."
+
+#: app/Services/TransStrings.php:894
+msgid "Will be used on course card preview and social sharing preview."
+msgstr ""
+"Wird für die Kurskartenvorschau und die Vorschau für soziale Netzwerke "
+"verwendet."
+
+#: app/Services/TransStrings.php:964
+#, php-format
+msgid "will unlock at %s"
+msgstr "wird um %s freigeschaltet"
+
+#: app/Http/Controllers/SettingController.php:207
+msgid ""
+"WordPress Helpdesk and Customer Support Ticket Plugin. Provide awesome "
+"support and manage customer queries right from your WordPress dashboard."
+msgstr ""
+"WordPress Helpdesk und Customer Support Ticket Plugin. Biete großartigen "
+"Support und verwalte Kundenanfragen direkt von deinem WordPress-Dashboard "
+"aus."
+
+#. Author of the plugin
+msgid "WPManageNinja LLC"
+msgstr "WPManageNinja LLC"
+
+#: app/Services/TransStrings.php:895
+msgid "Write a comment"
+msgstr "Schreibe einen Kommentar"
+
+#: app/Services/TransStrings.php:896
+msgid "Write a reply"
+msgstr "Schreibe eine Antwort"
+
+#: app/Services/TransStrings.php:897
+msgid "Write something here..."
+msgstr "Schreib hier etwas..."
+
+#: Modules/Auth/Classes/InvitationService.php:202
+msgid "XProfile not found"
+msgstr "XProfile nicht gefunden"
+
+#: app/Services/TransStrings.php:898
+msgid "Year"
+msgstr "Jahr"
+
+#: app/Services/TransStrings.php:899
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Services/TransStrings.php:900
+msgid "Yes, Delete"
+msgstr "Ja, Löschen"
+
+#: app/Services/TransStrings.php:902
+msgid "Yes, Delete the course"
+msgstr "Ja, lösche den Kurs"
+
+#: app/Services/TransStrings.php:901
+msgid "Yes, Delete the Space"
+msgstr "Ja, Raum löschen"
+
+#: app/Services/TransStrings.php:903
+msgid "Yes, Delete this group"
+msgstr "Ja, diese Gruppe löschen"
+
+#: app/Services/TransStrings.php:904
+msgid "Yes, Remove"
+msgstr "Ja, Entfernen"
+
+#: Modules/Auth/Classes/InvitationController.php:140
+msgid "You are already a member of this site"
+msgstr "Du bist bereits Mitglied auf dieser Seite"
+
+#: Modules/Course/Http/Controllers/CourseController.php:217
+msgid "You are already enrolled in this course."
+msgstr "Du bist bereits für diesen Kurs eingeschrieben."
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:602
+#, php-format
+msgid "You are getting this email because you are an admin/moderator at %s"
+msgstr "Du bekommst diese E-Mail, weil du ein Admin/Moderator bei %s bist"
+
+#: app/Http/Controllers/CommentsController.php:146
+msgid "You are not allowed to edit this comment"
+msgstr "Du bist nicht berechtigt, diesen Kommentar zu bearbeiten"
+
+#: Modules/Course/Http/Controllers/CourseController.php:209
+msgid "You are not allowed to enroll in this course."
+msgstr "Du darfst dich nicht für diesen Kurs einschreiben."
+
+#: app/Http/Controllers/SpaceController.php:257
+msgid "You are not allowed to view members of this space"
+msgstr "Du darfst die Mitglieder dieses Bereichs nicht sehen"
+
+#: app/Http/Controllers/ProfileController.php:288
+msgid "You are not allowed to view this profile's spaces."
+msgstr "Du darfst die Räume dieses Profils nicht sehen."
+
+#: app/Http/Controllers/SpaceController.php:168
+msgid "You are not allowed to view this space"
+msgstr "Du bist nicht berechtigt, diesen Bereich zu sehen"
+
+#: Modules/Auth/Classes/InvitationController.php:82
+#: Modules/Auth/Classes/InvitationController.php:90
+msgid "You are not permitted to invite"
+msgstr "Du darfst nicht einladen"
+
+#: app/Services/TransStrings.php:965
+msgid "you can edit your role here"
+msgstr "du kannst deine Rolle hier bearbeiten"
+
+#: app/Http/Controllers/AdminController.php:401
+msgid "You can not change the slug as it is defined in the config file"
+msgstr ""
+"Du kannst den Slug nicht ändern, da er in der Konfigurationsdatei definiert "
+"ist"
+
+#: app/Services/TransStrings.php:905
+msgid ""
+"You can not delete a group with spaces. Please move the spaces to a "
+"different group first."
+msgstr ""
+"Du kannst eine Gruppe mit Räumen nicht löschen. Bitte verschiebe die Räume "
+"zuerst in eine andere Gruppe."
+
+#: Modules/Auth/Classes/InvitationController.php:119
+msgid "You can not resend this invitation"
+msgstr "Du kannst diese Einladung nicht erneut versenden"
+
+#: app/Services/TransStrings.php:906
+#, php-format
+msgid "You can upload a maximum of %s images per post."
+msgstr "Du kannst maximal %s Bilder pro Beitrag hochladen."
+
+#: app/Services/TransStrings.php:907
+msgid "You can use @everyone to tag everyone."
+msgstr "Du kannst @everyone verwenden, um alle zu markieren."
+
+#: app/Http/Controllers/FeedsController.php:395
+msgid "You do not have permission to perform this action"
+msgstr "Du hast nicht die Erlaubnis, diese Aktion durchzuführen"
+
+#: app/Services/TransStrings.php:908
+msgid "You do not have permission to view all members"
+msgstr "Du hast nicht die Erlaubnis, alle Mitglieder zu sehen"
+
+#: app/Http/Controllers/MembersController.php:74
+msgid "You do not have permission to view members"
+msgstr "Du hast nicht die Erlaubnis, Mitglieder zu sehen"
+
+#: app/Services/TransStrings.php:909
+msgid "You do not have permission to view this post"
+msgstr "Du hast keine Erlaubnis, diesen Beitrag zu sehen"
+
+#: app/Services/TransStrings.php:935
+msgid ""
+"You earn points when other members like your posts, articles or comments. <b>"
+"1 like = 1 point</b>. This encourages users to produce quality content and "
+"interact with other members in their community."
+msgstr ""
+"Du bekommst Punkte, wenn anderen Mitgliedern deine Beiträge, Artikel oder "
+"Kommentare gefallen. <b>1 Like = 1 Punkt</b>. Das ermutigt die Nutzer/innen, "
+"hochwertige Inhalte zu produzieren und mit anderen Mitgliedern in ihrer "
+"Community zu interagieren."
+
+#: app/Hooks/Handlers/EmailNotificationHandler.php:593
+#, php-format
+msgid "You have a new join request from %1$s to join %2$s."
+msgstr "Du hast eine neue Beitrittsanfrage von %1$s für den Beitritt zu %2$s."
+
+#: Modules/Auth/Classes/InvitationService.php:177
+msgid "You have already invited this user"
+msgstr "Du hast diesen Benutzer bereits eingeladen"
+
+#. %1$s is the role name, %2$s is the space title
+#: app/Hooks/Handlers/NotificationEventHandler.php:152
+#, php-format
+msgid "You have been added as %1$s in %2$s"
+msgstr "Du wurdest als %1$s in %2$s hinzugefügt"
+
+#: Modules/Course/Http/Controllers/CourseController.php:223
+msgid "You have been enrolled in this course."
+msgstr "Du hast dich für diesen Kurs eingeschrieben."
+
+#: app/Services/TransStrings.php:910
+msgid "You have cancelled the action."
+msgstr "Du hast die Aktion abgebrochen."
+
+#: app/Http/Controllers/SpaceController.php:364
+msgid "You have joined this Space"
+msgstr "Du hast diesen Raum betreten"
+
+#: app/Http/Controllers/SpaceController.php:391
+msgid "You have left this space"
+msgstr "Du hast diesen Raum verlassen"
+
+#: app/Hooks/Handlers/RateLimitHandler.php:41
+msgid "You have reached the limit of commenting. Please try after some time"
+msgstr ""
+"Du hast das Limit für die Kommentarfunktion erreicht. Bitte versuche es nach "
+"einiger Zeit erneut"
+
+#: app/Hooks/Handlers/RateLimitHandler.php:27
+msgid "You have reached the limit of posting. Please try after some time"
+msgstr ""
+"Du hast das Limit für Beiträge erreicht. Bitte versuche es nach einiger Zeit "
+"erneut"
+
+#: Modules/Auth/AuthModdule.php:479
+msgid "You have successfully logged in to the community"
+msgstr "Du hast dich erfolgreich bei der Community angemeldet"
+
+#: Modules/Auth/AuthModdule.php:385
+msgid "You have successfully registered to the community"
+msgstr "Du hast dich erfolgreich in der Community registriert"
+
+#: Modules/Auth/AuthModdule.php:273
+msgid "You must agree to the terms and conditions"
+msgstr "Du musst den Bedingungen und Konditionen zustimmen"
+
+#: app/Http/Controllers/MembersController.php:21
+msgid "You must be logged in to mention someone"
+msgstr "Du musst eingeloggt sein, um jemanden zu erwähnen"
+
+#: app/Services/TransStrings.php:911
+#, php-format
+msgid "You must type %s to confirm"
+msgstr "Du musst %s zur Bestätigung eingeben"
+
+#: app/Http/Controllers/Controller.php:20
+msgid "You need to be logged in to perform this action"
+msgstr "Du musst eingeloggt sein, um diese Aktion durchzuführen"
+
+#: Modules/Course/Http/Controllers/CourseController.php:197
+msgid "You need to login to enroll in this course."
+msgstr "Du musst dich einloggen, um dich für diesen Kurs anzumelden."
+
+#: app/Services/TransStrings.php:912
+msgid "You should enable this. Currently disabled."
+msgstr "Du solltest dies aktivieren. Derzeit deaktiviert."
+
+#: app/Services/TransStrings.php:913
+msgid "You will get a digest email with curated activities in the community"
+msgstr "Du erhältst eine E-Mail mit kuratierten Aktivitäten in der Community"
+
+#: app/Services/TransStrings.php:914
+msgid "You will receive an email when someone leaves a comment on your post."
+msgstr ""
+"Du erhältst eine E-Mail, wenn jemand einen Kommentar zu deinem Beitrag "
+"hinterlässt."
+
+#: app/Services/TransStrings.php:915
+msgid ""
+"You will receive an email when someone mentions you in a comment or post."
+msgstr ""
+"Du erhältst eine E-Mail, wenn dich jemand in einem Kommentar oder Beitrag "
+"erwähnt."
+
+#: app/Services/TransStrings.php:916
+msgid "You will receive an email when someone replies to your comments."
+msgstr "Du erhältst eine E-Mail, wenn jemand auf deinen Kommentar antwortet."
+
+#: app/Views/auth/login_form.php:26
+msgid "Your account email address"
+msgstr "Deine Konto-E-Mail-Adresse"
+
+#: app/Views/auth/login_form.php:36
+msgid "Your account password"
+msgstr "Dein Kontopasswort"
+
+#: app/Services/TransStrings.php:923
+msgid "Your affiliate ID"
+msgstr "Deine Partner-ID"
+
+#: app/Services/TransStrings.php:917
+msgid "Your Bookmarks"
+msgstr "Deine Lesezeichen"
+
+#: app/Services/TransStrings.php:930
+msgid ""
+"Your cloud storage settings have been defined in the wp-config.php file. "
+"These cannot be edited."
+msgstr ""
+"Die Einstellungen für deinen Cloud-Speicher wurden in der Datei wp-config."
+"php festgelegt. Diese können nicht bearbeitet werden."
+
+#: app/Services/TransStrings.php:918
+msgid "Your Course Title"
+msgstr "Dein Kurstitel"
+
+#: Modules/Auth/AuthHelper.php:156
+msgid "Your email address"
+msgstr "Deine E-Mail Adresse"
+
+#: app/Services/TransStrings.php:924
+msgid "Your files will be stored in the default Uploads folder"
+msgstr "Deine Dateien werden im Standardordner Uploads gespeichert"
+
+#: Modules/Auth/AuthHelper.php:148
+msgid "Your first & last name"
+msgstr "Dein Vor- und Nachname"
+
+#: app/Services/TransStrings.php:919
+msgid "Your Group Title"
+msgstr "Dein Gruppentitel"
+
+#: app/Http/Controllers/SpaceController.php:364
+msgid "Your join request has been sent to the Space admin."
+msgstr "Deine Beitrittsanfrage wurde an den Space-Administrator gesendet."
+
+#: app/Services/TransStrings.php:920
+msgid "Your License Key"
+msgstr "Dein Lizenzschlüssel"
+
+#: app/Services/TransStrings.php:925
+msgid "Your license key is valid and activated."
+msgstr "Dein Lizenzschlüssel ist gültig und aktiviert."
+
+#: app/Services/TransStrings.php:926
+msgid "Your option text"
+msgstr "Dein Optionstext"
+
+#: app/Services/TransStrings.php:921
+msgid "Your Photo"
+msgstr "Dein Foto"
+
+#: app/Http/Controllers/FeedsController.php:296
+msgid "Your post has been published"
+msgstr "Dein Beitrag wurde veröffentlicht"
+
+#: app/Http/Controllers/FeedsController.php:381
+msgid "Your post has been updated"
+msgstr "Dein Beitrag wurde aktualisiert"
+
+#: Modules/Auth/AuthHelper.php:237
+#, php-format
+msgid "Your registration verification code for %s"
+msgstr "Dein Registrierungsbestätigungscode für %s"
+
+#: app/Services/TransStrings.php:927
+msgid "Your request to join this course is pending"
+msgstr "Deine Anfrage zur Teilnahme an diesem Kurs ist noch offen"
+
+#: app/Services/TransStrings.php:928
+msgid "Your saved posts"
+msgstr "Deine gespeicherten Beiträge"
+
+#: app/Services/TransStrings.php:922
+msgid "Your Space Title"
+msgstr "Dein Raum Titel"
+
+#: app/Services/TransStrings.php:966
+msgid "🔔 new post available"
+msgstr "🔔 neuer Beitrag verfügbar"
